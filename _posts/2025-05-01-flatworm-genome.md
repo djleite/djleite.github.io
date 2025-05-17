@@ -9,6 +9,7 @@ excerpt: Sequencing of the polyclad flatworm genome
 Our adventure started in the Florida Keys, at the [Keys Marine Lab](https://www.fio.usf.edu/keys-marine-lab/). Renting kayaks, we surveyed the local mangroves, looking for the ascidians, were the flatworms congregated. 
 
 ![Looking out from the Keys Marine Lab, Florida, USA](/images/keys.webp)
+<p style="text-align:center;">Text_content</p>
 
 The article titled "Genome Assembly of the Polyclad Flatworm Prostheceraeus crozieri" by Leite et al., published in Genome Biology and Evolution (2022), presents the first high-quality genome assembly for P. crozieri, a representative of Polycladida—a group of marine flatworms considered basal within Platyhelminthes. This genome provides valuable insights into the evolution and development of flatworms, particularly concerning features like spiral cleavage and larval diversification.
 
