@@ -1,7 +1,29 @@
 ---
-title: "spider WGD"
+title: Chelicerate whole genome duplications
 date: 2024-11-01
 tags: [featured]
-image: /images//DJL_ID_photo.webp
-excerpt: afekgnmva;dfk
+image: /images/spider-wgd.webp
+excerpt: Impact of genome evolution in chelicerate lineages with whole genome duplication
 ---
+
+## Background
+
+## Genomes of spiders and scorpions
+2017 schwager
+
+## Homeobox genes
+2018 leite
+2023 madda
+
+## microRNAs
+2016 leite
+
+## Sox genes
+2018a, 2018b Pease
+
+## Synteny
+2023 madda
+
+## biorxiv paper
+
+## Impact
