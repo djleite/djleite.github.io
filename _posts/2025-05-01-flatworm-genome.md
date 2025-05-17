@@ -3,6 +3,7 @@ title: flatworm genome
 date: 2024-11-01
 tags: [featured]
 image: /images//DJL_ID_photo.webp
+excerpt: Sequencing of the flatworm genome
 ---
 
 The article titled "Genome Assembly of the Polyclad Flatworm Prostheceraeus crozieri" by Leite et al., published in Genome Biology and Evolution (2022), presents the first high-quality genome assembly for P. crozieri, a representative of Polycladida—a group of marine flatworms considered basal within Platyhelminthes. This genome provides valuable insights into the evolution and development of flatworms, particularly concerning features like spiral cleavage and larval diversification.
