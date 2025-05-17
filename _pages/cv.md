@@ -6,13 +6,54 @@ permalink: /cv/
 
 # Skills
 ## Management: 
-Conceptualisation | Team coordination | Experimental design | Project planning | Scheduling | Resources management | Fund management | Data archiving | CRM | Agile
+- Conceptualisation
+- Team coordination
+- Experimental design
+- Project planning
+- Scheduling
+- Resources management
+- Fund management
+- Data archiving
+- CRM
+- Agile
 ## Communication: 
-Presentation | Teaching | Mentoring | Collaborating | Publishing significant contributions to the scientific community, with 16 peer-reviewed publications (full [publication](https://djleite.github.io/publications) list) in journals with impact factors ranging from 3 to 15, collectively cited over 700 times. 
+- Presentation
+- Teaching
+- Mentoring
+- Collaborating
+- [Publishing](https://djleite.github.io/publications) (cited >700 times) 
 ## Computational: 
-Bioinformatics | Python | R | Bash | HPC | Linux/Mac/Win OS | Command-line | Tool development | Genome assembly | Genome annotation | Single-cell sequencing | non-coding DNA/RNA annotation |  Transcriptomics | Phylogenetics | SNP/Variant Calling | Visualisation | Statistics | Microsoft Office | Data archiving | GitHub
+- Bioinformatics
+- Python
+- R
+- Bash
+- HPC
+- Linux/Mac/Win OS
+- Command-line
+- Tool development
+- Genome assembly
+- Genome annotation
+- Single-cell sequencing
+- Non-coding DNA/RNA annotation
+- Transcriptomics
+- Phylogenetics
+- SNP/Variant Calling
+- Visualisation
+- Statistics
+- Microsoft Office
+- Data archiving
+- GitHub
 ## Laboratory techniques: 
-DNA/RNA extraction | NGS library preparation | PCR | Cloning | in-situ hybridisation | Molecular biology | Immunohistochemistry | Microscopy (bright-field/confocal/SEM/TEM) | Invertebrate husbandry | Species identification
+- DNA/RNA extraction
+- NGS library preparation
+- PCR
+- Cloning
+- in-situ hybridisation
+- Molecular biology
+- Immunohistochemistry
+- Microscopy (bright-field/confocal/SEM/TEM)
+- Invertebrate husbandry
+- Species identification
 
 
 # EXPERIENCE
