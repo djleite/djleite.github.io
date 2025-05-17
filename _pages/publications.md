@@ -6,7 +6,7 @@ permalink: /publications/
 
 <div id="archives">
   <section id="archive">
-    <h3>Publications</h3>
+    <h3>Publications blah</h3>
     <div id="publication-list"></div>
   </section>
 </div>
