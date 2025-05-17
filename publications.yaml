@@ -1,15 +1,15 @@
-- title: A Paper About Papers
-  authors: Me and You
-  date: 2025
-  journal: Journal of BS
-  additional: pp69
-  DOI: afijadfg
-  URL: https://link-to-nowhere
+- title: Insights into early animal evolution form the genome of the xenacoelomorph worm Xenoturbella bocki
+  authors: Schiffer PH, Natsidis P, Leite DJ, Robertson HE, Lapraz F, Marlétaz F, Fromm B, Baudry L, Simpson F, Høye E, Zakrzewski AC, Kapli P, Hoff KJ, Mueller S, Marbouty M, Marlow H, Copley RR, Koszul R, Sarkies P, Telford MJ.
+  date: 2024
+  journal: Elife
+  additional: 
+  DOI: https://doi.org/10.7554/eLife.94948
+  URL: https://elifesciences.org/articles/94948
 
 - title: Another Study
-  authors: Alice and Bob
-  date: 2023
-  journal: Journal of Examples
-  additional: pp42-45
-  DOI: doi-example-123
-  URL: https://example.com/study
+  authors: Leite DJ, Schönauer A, Blakeley G, Harper A, Garcia-Castro H, Baudouin-Gonzalez L, Wang R, Sarkis N, Nikola AG, Koka VSP, Kenny NJ, Turetzek N, Pechmann M, Solana J, McGregor AP
+  date: 2024
+  journal: EvoDevo
+  additional: 15, 5
+  DOI: https://doi.org/10.1186/s13227-024-00224-4
+  URL: https://evodevojournal.biomedcentral.com/articles/10.1186/s13227-024-00224-4
