@@ -4,48 +4,100 @@ title: CV
 permalink: /cv/
 ---
 
-### Step 1) Fork Reverie to your User Repository
+# Skills
+## Management: 
+Conceptualisation | Team coordination | Experimental design | Project planning | Scheduling | Resources management | Fund management | Data archiving | CRM | Agile
+## Communication: 
+Presentation | Teaching | Mentoring | Collaborating | Publishing significant contributions to the scientific community, with 16 peer-reviewed publications (full publication list) in journals with impact factors ranging from 3 to 15, collectively cited over 700 times. 
+## Computational: 
+Bioinformatics | Python | R | Bash | HPC | Linux/Mac/Win OS | Command-line | Tool development | Genome assembly | Genome annotation | Single-cell sequencing | non-coding DNA/RNA annotation |  Transcriptomics | Phylogenetics | SNP/Variant Calling | Visualisation | Statistics | Microsoft Office | Data archiving | GitHub
+## Laboratory techniques: 
+DNA/RNA extraction | NGS library preparation | PCR | Cloning | in-situ hybridisation | Molecular biology | Immunohistochemistry | Microscopy (bright-field/confocal/SEM/TEM) | Invertebrate husbandry | Species identification
 
-Fork [this repository](https://github.com/amitmerchant1990/reverie), then rename the repository to `yourgithubusername.github.io`.
 
-Alternatively, you can use [Use this template](https://github.com/amitmerchant1990/reverie/generate) button if you want to create a repository with a clean commit history which will use Reverie as a template.
+# EXPERIENCE
 
-Your Jekyll blog will often be viewable immediately at <https://yourgithubusername.github.io> (if it's not, you can often force it to build by completing step 2)
+## Senior Bioinformatician and Business Developer - Pragmatic Genomics (2024 May - Oct)
+### Responsibilities:
+- Developed genomics SaaS tools for cloud-based analyses
+- Conceptualised ideas, reviewed and tested using agile practices and GitHub version control
+- Established and managed high and low-touch sales funnels
+- Improved CRM (Hubspot), customer engagement, automation (Make), and feedback integration
+- Optimised website (HTML/CSS), improved design, SEO (Lighthouse), online resources (blogs, tutorials, functionality information), and branding
+### Achievements:
+- Improved front/back-end tool functionality, UX, security, and ensured biological and scientific rigour
+- Increased B2B and B2C sales over £50k pa via improved sales funnels and CRM methods
+- Overhauled website content, performance, and resources to attract and support customers
 
-### Step 2) Customize and view your site
+## Postdoctoral Researcher – Durham University (2020 – 2024)
 
-Enter your site name, description, avatar and many other options by editing the `_config.yml` file. You can easily turn on Google Analytics tracking, Disqus commenting and social icons here.
+### Responsibilities:
+- Co-led team coordination, international collaborations, resource and fund management
+- Conceived experimental design, technical analyses and scientific interpretations 
+- Managed data collections, archiving, task designation, communications and publications
+- Mentored and supervised Postdocs/PhDs/undergraduates, teaching computational analyses
+### Achievements:
+- Discovered and published new insights of spider development at single-cell resolution 
+- Assembling and annotating four new spider genomes using NGS long-read (PacBio HiFi/Iso-Seq) and short-read (Illumina DNA/RNA-Seq and Arima HiC) technologies
+- Developed novel bioinformatic approaches for studying genome synteny and evolution
+### Projects:
+- Single-cell RNA-Seq (SPLiTseq) transcriptomics analyses of spider development 
+- Systematic identification of duplicate genes in chelicerate whole genome duplications
 
-Making a change to `_config.yml` (or any file in your repository) will force GitHub Pages to rebuild your site with jekyll. Your rebuilt site will be viewable a few seconds later at <https://yourgithubusername.github.io> - if not, give it ten minutes as GitHub suggests and it'll appear soon.
+## Associate Lecturer – Oxford Brookes University (2021 – 2023)
+### Responsibilities:
+- Design course material and examinations, in coordination with co-lecturers
+- Taught theoretical and bioinformatic practical sessions and mentoring undergraduate students
+### Achievements:
+- Received positive feedback from students and co-lecturers, evidenced by high exam scores
 
-### Step 3) Publish your first blog post
+## Postdoctoral Researcher – University College London (2018 – 2020)
+### Responsibilities:
+- Co-led an international trip to collect live animals, transport, care, complied to law and regulations
+- Conceived of experimental design, technical analyses and scientific interpretations 
+- Managed data collections, archiving, collaborations and publications
+- Mentored PhDs and In2Science outreach, teaching wet-lab and computational analyses
+### Achievements:
+- Sequenced, assembled and published the first polyclad flatworm genome
+- Learnt single-cell wet-lab and bioinformatic analyses
+### Projects:
+- Genome assembly (PacBio CCS) and annotation of a polyclad flatworm
+- Single-cell analysis of early development of spiral cleavage and larva in lophotrochozoans
+- Phylogenetic relationships of major animal clades
 
-Create a new file called `/_posts/2019-2-13-Hello-World.md` to publish your first blog post. That's all you need to do to publish your first blog post! This [Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) might come in handy while writing the posts.
+## Postdoctoral Researcher – Oxford Brookes University (2017 – 2018)
+### Responsibilities:
+- Managed data collection, analyses, and archiving, and publications  
+- Conceived experimental design, technical analyses and scientific interpretations 
+- Mentored and supervised PhDs/undergraduates, teaching computational and wet-lab analyses
+### Achievements:
+- Established international collaborations, acquiring resources that expanded scientific perspective
+- First characterisation of all homeobox genes in spiders and support for whole genome duplication
+### Projects:
+- Investigated the homeobox gene repertoires in chelicerate whole genome duplications
+- Genome assembly (SPAdes) and variant calling (GATK) between strains of baculoviridae
 
-> You can add additional posts in the browser on GitHub.com too! Just hit the <kbd>Create new file</kbd> button in `/_posts/` to create new content. Just make sure to include the [front-matter](http://jekyllrb.com/docs/frontmatter/) block at the top of each new blog post and make sure the post's filename is in this format: year-month-day-title.md
 
-## Using Categories in Reverie
+# Education
+## Ph.D. – Oxford Brookes University (2013 – 2017)
+Thesis “Duplication and divergence of homeobox genes and microRNAs in Chelicerata”.
+Published three first-author papers and received accolades for presentations and posters.
+## BSc– Oxford Brookes University (2010 – 2013)
+1st Class Honours. Evolutionary | Developmental | Molecular | Cellular | Plant | Conservation
 
-You can categorize your content based on `categories` in Reverie. For this, you just need to add `categories` in front matter like below:
 
-For adding single category:
-
-```md
-categories: JavaScript
-```
-
-For adding multiple categories:
-
-```md
-categories: [PHP, Laravel]
-```
-
-The contegorized content can be shown over this URL: <https://yourgithubusername.github.io/categories/>
-
-## RSS
-
-The generated [RSS feed](https://en.wikipedia.org/wiki/RSS) of your blog can be found at <https://yourgithubusername.github.io/feed>. You can see the example RSS feed over [here](https://www.amitmerchant.com/reverie/feed).
-
-## Sitemap
-
-The generated sitemap of your blog can be found at <https://yourgithubusername.github.io/sitemap>. You can see the example sitemap feed over [here](https://www.amitmerchant.com/reverie/sitemap).
+# Other
+## Journal Reviewer: 
+BMC Genomics | BMC Biology | Proc. of the Royal Society London B | Nucleic Acids Research | Development Genes and Evolution | JEZ Part B: Molecular and Developmental Evolution
+## Key conference presentations: 
+Keynote at DZG, Kassel, Germany (2023)
+Invited speaker at Durham, UK (2022)
+Speaker at Darwin Tree of Life, UK (2021)
+Speaker at SpiderWeb, Göttingen, Germany (2017)
+Speaker at SpiderWeb, Jena, Germany (2014)
+## Teaching and outreach:
+Associate lecturer (2021 – 2023)
+Supervisor of undergraduates, masters, and Ph.D. students (2013 – 2024)
+Outreach with In2Science (2019) and primary schools (2014 – 2017)
+## Gatsby Plant Summer School (2011):
+Experience and training in ideas and solutions in plant science.
