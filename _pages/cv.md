@@ -4,6 +4,13 @@ title: CV
 permalink: /cv/
 ---
 
+- [Skills](https://djleite.github.io/cv#skills)
+- [Experience](https://djleite.github.io/cv#experience)
+- [Education](https://djleite.github.io/cv#education)
+- [Other](https://djleite.github.io/cv#other)
+
+***
+
 # Skills
 ## Management: 
 - Conceptualisation
@@ -55,6 +62,7 @@ permalink: /cv/
 - Invertebrate husbandry
 - Species identification
 
+***
 
 # EXPERIENCE
 
@@ -118,16 +126,20 @@ permalink: /cv/
 - Investigated the homeobox gene repertoires in chelicerate whole genome duplications
 - Genome assembly (SPAdes) and variant calling (GATK) between strains of baculoviridae
 
+***
 
-# Education
+# EDUCATION
+
 ## Ph.D. – Oxford Brookes University (2013 – 2017)
 Thesis “Duplication and divergence of homeobox genes and microRNAs in Chelicerata”.
 Published three first-author papers and received accolades for presentations and posters.
 ## BSc– Oxford Brookes University (2010 – 2013)
 1st Class Honours. Evolutionary | Developmental | Molecular | Cellular | Plant | Conservation
 
+***
 
-# Other
+# OTHER
+
 ## Journal Reviewer: 
 BMC Genomics | BMC Biology | Proc. of the Royal Society London B | Nucleic Acids Research | Development Genes and Evolution | JEZ Part B: Molecular and Developmental Evolution
 ## Key conference presentations: 
