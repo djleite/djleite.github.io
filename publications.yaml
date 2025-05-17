@@ -1,3 +1,11 @@
+- title: Development and patterning of a highly versatile visual system in spiders
+  authors: Baudouin Gonzalez L, Schönauer A, Harper A, Arif S, Leite DJ, Steinhoff POM, Pechmann M, Telizhenko V, Pande A, Schultz ZX, Kosiol C, Aase-Remedios M, Sumner-Rooney L, McGregor AP
+  date: 2025
+  journal: Proc R Soc B
+  additional: 292
+  DOI: https://doi.org/10.1098/rspb.2024.2069
+  URL: https://royalsocietypublishing.org/doi/10.1098/rspb.2024.2069
+
 - title: Insights into early animal evolution form the genome of the xenacoelomorph worm Xenoturbella bocki
   authors: Schiffer PH, Natsidis P, Leite DJ, Robertson HE, Lapraz F, Marlétaz F, Fromm B, Baudry L, Simpson F, Høye E, Zakrzewski AC, Kapli P, Hoff KJ, Mueller S, Marbouty M, Marlow H, Copley RR, Koszul R, Sarkies P, Telford MJ.
   date: 2024
@@ -51,7 +59,7 @@
   date: 2021
   journal: Science Advances
   additional: 7, 12
-  DOI: https://10.1126/sciadv.abe2741
+  DOI: https://doi.org/10.1126/sciadv.abe2741
   URL: https://pubmed.ncbi.nlm.nih.gov/33741592/
 
 - title: Duplication and expression of Sox genes in spiders
@@ -59,7 +67,7 @@
   date: 2018
   journal: BMC Evol Biol
   additional: 18, 205
-  DOI: https://10.1186/s12862-018-1337-4
+  DOI: https://doi.org/10.1186/s12862-018-1337-4
   URL: https://pubmed.ncbi.nlm.nih.gov/30587109/
 
 - title: Homeobox Gene Duplication and Divergence in Arachnids
@@ -67,7 +75,7 @@
   date: 2018
   journal: Mol Biol Evol
   additional: 35, 9
-  DOI: https://10.1093/molbev/msy125
+  DOI: https://doi.org/10.1093/molbev/msy125
   URL: https://pubmed.ncbi.nlm.nih.gov/29924328/
 
 - title: A SoxB gene acts as an anterior gap gene and regulates posterior segment addition in a spider
@@ -75,7 +83,7 @@
   date: 2018
   journal: Elife
   additional: 7
-  DOI: 10.7554/eLife.37567
+  DOI: https://doi.org/10.7554/eLife.37567
   URL: https://pubmed.ncbi.nlm.nih.gov/30126532/
 
 - title: The house spider genome reveals an ancient whole-genome duplication during arachnid evolution
@@ -91,7 +99,7 @@
   date: 2016
   journal: Curr Opin Genet Dev
   additional: 39, p93-100
-  DOI: https://10.1016/j.gde.2016.06.002
+  DOI: https://doi.org/10.1016/j.gde.2016.06.002
   URL: https://pubmed.ncbi.nlm.nih.gov/27362947/
 
 - title: Pervasive microRNA Duplication in Chelicerates - Insights from the Embryonic microRNA Repertoire of the Spider Parasteatoda tepidariorum
@@ -99,7 +107,7 @@
   date: 2016
   journal: Genome Biol Evol
   additional: 8, p2133-2144
-  DOI: https://10.1093/gbe/evw143
+  DOI: https://doi.org/10.1093/gbe/evw143
   URL: https://pubmed.ncbi.nlm.nih.gov/27324919/
 
 - title: The Wnt and Delta-Notch signalling pathways interact to direct pair-rule gene expression via caudal during segment addition in the spider Parasteatoda tepidariorum
@@ -107,7 +115,7 @@
   date: 2016
   journal: Development
   additional: 143, p2455-2463
-  DOI: https://10.1242/dev.131656
+  DOI: https://doi.org/10.1242/dev.131656
   URL: https://pubmed.ncbi.nlm.nih.gov/27287802/
 
 - title: Sexual dimorphism and natural variation within and among species in the Drosophila retinal mosaic
@@ -115,7 +123,7 @@
   date: 2014
   journal: BMC Evol Biol
   additional: 14, 240
-  DOI: 10.1186/s12862-014-0240-x
+  DOI: https://doi.org/10.1186/s12862-014-0240-x
   URL: https://pubmed.ncbi.nlm.nih.gov/25424626/
 
 - title: Meta-analysis using a novel database, miRStress, reveals miRNAs that are frequently associated with the radiation and hypoxia stress-responses
@@ -123,7 +131,7 @@
   date: 2013
   journal: PLoS One
   additional: 8
-  DOI: https://10.1371/journal.pone.0080844
+  DOI: https://doi.org/10.1371/journal.pone.0080844
   URL: https://pubmed.ncbi.nlm.nih.gov/24244721/
 
 - title: Chelicerata. In A. Wanninger (Ed.), Evolutionary Developmental Biology of Invertebrates 3
