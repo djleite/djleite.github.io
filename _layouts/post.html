@@ -3,32 +3,37 @@ layout: default
 ---
 
 <article class="post detailed">
+  <!-- 🔙 Back link at top -->
+  <div style="margin-bottom: 1rem;">
+    <a href="{{ site.baseurl }}/projects/" style="text-decoration: none;">← Back to all projects</a>
+  </div>
+
   <h1>{{ page.title }}</h1>
 
-  <div>
-    <p class="author_title">{{site.author}}  ·  {{ page.date | date: "%B %e, %Y" }}</p>
-    {% if page.last_modified_at %}
-    <p class="author_title" datetime="{{ page.last_modified_at | date_to_xmlschema }}">(Updated: {{ page.last_modified_at | date: "%b %-d, %Y" }})</p>
-    {% endif %}
-    <div class="post-tags">
-      {% if post %}
-        {% assign categories = post.categories %}
-      {% else %}
-        {% assign categories = page.categories %}
-      {% endif %}
-      {% for category in categories %}
-        <a href="{{site.baseurl}}/categories/#{{category|slugize}}">{{category}}</a>
-        {% unless forloop.last %}&nbsp;{% endunless %}
-      {% endfor %}
-    </div>
+  <!-- Removed author/date block here -->
+
+  <div class="post-tags">
+    {% assign categories = post.categories | default: page.categories %}
+    {% for category in categories %}
+      <a href="{{ site.baseurl }}/categories/#{{ category | slugize }}">{{ category }}</a>
+      {% unless forloop.last %}&nbsp;{% endunless %}
+    {% endfor %}
   </div>
-    
+
   <div class="entry">
     {{ content }}
   </div>
 
+  <!-- Optional: Keep date at bottom if desired -->
+  {# 
   <div class="date">
     Written on {{ page.date | date: "%B %e, %Y" }}
+  </div>
+  #}
+
+  <!-- 🔙 Back link at bottom -->
+  <div style="margin-top: 2rem;">
+    <a href="{{ site.baseurl }}/projects/" style="text-decoration: none;">← Back to all projects</a>
   </div>
 
   {% include disqus.html %}
