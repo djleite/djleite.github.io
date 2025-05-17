@@ -12,14 +12,16 @@ excerpt: Impact of genome evolution in chelicerate lineages with whole genome du
 2017 schwager
 
 ## Homeobox genes
-2018 leite
-2023 madda
+- 2018 leite
+- 2023 madda
+- 2024 leite single cell - show homeobox changes
 
 ## microRNAs
-2016 leite
+- 2016 leite
 
 ## Sox genes
-2018a, 2018b Pease
+- 2018a, 2018b Pease
+- link to segmentation
 
 ## Synteny
 2023 madda
