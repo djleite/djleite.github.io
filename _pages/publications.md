@@ -6,7 +6,7 @@ permalink: /publications/
 
 <div id="archives">
   <section id="archive">
-    <div id="publication-list"></div>
+    <ol id="publication-list"></ol>
   </section>
 </div>
 
@@ -19,26 +19,30 @@ permalink: /publications/
 
     const container = document.getElementById('publication-list');
 
-    // Sort publications by year (newest first)
+    // Sort by year descending
     data.sort((a, b) => (b.date || 0) - (a.date || 0));
 
     data.forEach(pub => {
-      // Bolden "Leite DJ" in authors
+      // Bolden "Leite DJ"
       let authors = pub.authors || '';
       authors = authors.replace(/\bLeite DJ\b/g, '<b>Leite DJ</b>');
 
       let output = `${authors}`;
       if (pub.date) output += ` (${pub.date})`;
+
       if (pub.title && pub.URL) {
         output += ` <a href="${pub.URL}" target="_blank">${pub.title}</a>`;
       } else if (pub.title) {
         output += ` ${pub.title}`;
       }
+
       if (pub.journal) output += `. <em>${pub.journal}</em>`;
       if (pub.additional) output += `. ${pub.additional}`;
       if (pub.DOI) output += `. DOI: ${pub.DOI}`;
 
-      container.innerHTML += `<p>${output}</p>`;
+      const li = document.createElement('li');
+      li.innerHTML = output;
+      container.appendChild(li);
     });
   }
 
