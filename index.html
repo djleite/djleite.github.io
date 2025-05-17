@@ -1,49 +1,43 @@
 ---
 layout: default
+title: Home
 ---
 
-<div class="posts">
-  {% for post in paginator.posts %}
-    <article class="post">
-      <a href="{{ site.baseurl }}{{ post.url }}">
-        <h1>{{ post.title }}</h1>
-
-        <div>
-          <p class="post_date">{{ post.date | date: "%B %e, %Y" }}</p>
-        </div>
-      </a>
-      <div class="entry">
-        {{ post.excerpt }}
-      </div>
-
-      <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
-    </article>
-  {% endfor %}
-
-  <!-- pagination -->
-  {% if paginator.total_pages > 1 %}
-  <div class="pagination">
-    {% if paginator.previous_page %}
-      <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&laquo; Prev</a>
-    {% else %}
-      <span>&laquo; Prev</span>
-    {% endif %}
-
-    {% for page in (1..paginator.total_pages) %}
-      {% if page == paginator.page %}
-        <span class="webjeda">{{ page }}</span>
-      {% elsif page == 1 %}
-        <a href="{{ '/' | prepend: site.baseurl | replace: '//', '/' }}">{{ page }}</a>
-      {% else %}
-        <a href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a>
-      {% endif %}
-    {% endfor %}
-
-    {% if paginator.next_page %}
-      <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Next &raquo;</a>
-    {% else %}
-      <span>Next &raquo;</span>
-    {% endif %}
+<!-- 🔹 Section 1: Bio with Image -->
+<section style="display: flex; align-items: center; gap: 2rem; padding: 2rem 0;">
+  <div style="flex: 1;">
+    <p>
+      Hi, I'm DJ Leite — a researcher interested in X, Y, and Z. I work on projects involving machine learning,
+      computational biology, and open science. Feel free to explore my work below.
+    </p>
   </div>
-  {% endif %}
-</div>
+  <div style="flex: 0 0 auto;">
+    <img src="{{ site.baseurl }}/images/DJL_ID_photo.webp" alt="DJ Leite Photo" style="max-width: 200px; border-radius: 8px;">
+  </div>
+</section>
+
+<hr>
+
+<!-- 🔹 Section 2: Featured Projects -->
+<section style="padding: 2rem 0;">
+  <h2 style="margin-bottom: 1rem;">Featured Projects</h2>
+  <div style="display: flex; flex-wrap: wrap; justify-content: space-between; gap: 1.5rem;">
+    {% assign featured = site.posts | where_exp: "post", "post.tags contains 'featured'" | slice: 0, 3 %}
+    {% for post in featured %}
+      <div style="flex: 1 1 calc(33.333% - 1rem); text-align: center;">
+        {% if post.image %}
+          <a href="{{ site.baseurl }}{{ post.url }}">
+            <img src="{{ site.baseurl }}{{ post.image }}" alt="{{ post.title }}" style="width: 100%; max-height: 200px; object-fit: cover; border-radius: 8px;">
+          </a>
+        {% endif %}
+        <h3 style="margin-top: 0.75rem;">
+          <a href="{{ site.baseurl }}{{ post.url }}" style="text-decoration: none;">{{ post.title }}</a>
+        </h3>
+      </div>
+    {% endfor %}
+  </div>
+
+  <div style="text-align: right; margin-top: 1.5rem;">
+    <a href="{{ site.baseurl }}/projects" style="font-weight: bold;">View All Projects →</a>
+  </div>
+</section>
