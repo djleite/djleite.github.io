@@ -4,14 +4,17 @@ title: CV
 permalink: /cv/
 ---
 
-- [Skills](https://djleite.github.io/cv#skills)
-- [Experience](https://djleite.github.io/cv#experience)
-- [Education](https://djleite.github.io/cv#education)
-- [Other](https://djleite.github.io/cv#other)
+## [Skills](https://djleite.github.io/cv#skills)
+
+## [Experience](https://djleite.github.io/cv#experience)
+
+## [Education](https://djleite.github.io/cv#education)
+
+## [Other](https://djleite.github.io/cv#other)
 
 ***
 
-# Skills
+# SKILLS
 
 ## Management: 
 - Conceptualisation
@@ -158,24 +161,24 @@ Published three first-author papers and received accolades for presentations and
 # OTHER
 
 ## Journal Reviewer: 
-BMC Genomics
-BMC Biology
-Proc. of the Royal Society London B
-Nucleic Acids Research
-Development Genes and Evolution
-JEZ Part B: Molecular and Developmental Evolution
+- BMC Genomics
+- BMC Biology
+- Proc. of the Royal Society London B
+- Nucleic Acids Research
+- Development Genes and Evolution
+- JEZ Part B: Molecular and Developmental Evolution
 
 ## Key conference presentations: 
-Keynote at DZG, Kassel, Germany (2023)
-Invited speaker at Durham, UK (2022)
-Speaker at Darwin Tree of Life, UK (2021)
-Speaker at SpiderWeb, Göttingen, Germany (2017)
-Speaker at SpiderWeb, Jena, Germany (2014)
+- Keynote at DZG, Kassel, Germany (2023)
+- Invited speaker at Durham, UK (2022)
+- Speaker at Darwin Tree of Life, UK (2021)
+- Speaker at SpiderWeb, Göttingen, Germany (2017)
+- Speaker at SpiderWeb, Jena, Germany (2014)
 
 ## Teaching and outreach:
-Associate lecturer (2021 – 2023)
-Supervisor of undergraduates, masters, and Ph.D. students (2013 – 2024)
-Outreach with In2Science (2019) and primary schools (2014 – 2017)
+- Associate lecturer (2021 – 2023)
+- Supervisor of undergraduates, masters, and Ph.D. students (2013 – 2024)
+- Outreach with In2Science (2019) and primary schools (2014 – 2017)
 
 ## Gatsby Plant Summer School (2011):
 Experience and training in ideas and solutions in plant science.
