@@ -4,13 +4,13 @@ title: CV
 permalink: /cv/
 ---
 
-## [Skills](https://djleite.github.io/cv#skills)
+## [Skills](/cv#skills)
 
-## [Experience](https://djleite.github.io/cv#experience)
+## [Experience](/cv#experience)
 
-## [Education](https://djleite.github.io/cv#education)
+## [Education](/cv#education)
 
-## [Other](https://djleite.github.io/cv#other)
+## [Other](/cv#other)
 
 ***
 
