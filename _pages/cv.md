@@ -147,11 +147,11 @@ permalink: /cv/
 # EDUCATION
 
 ## Ph.D. – Oxford Brookes University (2013 – 2017)
-Thesis “Duplication and divergence of homeobox genes and microRNAs in Chelicerata”.
-Published three first-author papers and received accolades for presentations and posters.
+- Thesis “Duplication and divergence of homeobox genes and microRNAs in Chelicerata”
+- Published three first-author papers and received accolades for presentations and posters
 
 ## BSc– Oxford Brookes University (2010 – 2013)
-1st Class Honours. Evolutionary | Developmental | Molecular | Cellular | Plant | Conservation
+1st Class Honours - Evolutionary | Developmental | Molecular | Cellular | Plant | Conservation
 
 ***
 
@@ -167,7 +167,7 @@ Published three first-author papers and received accolades for presentations and
 
 ## Key conference presentations: 
 - Keynote at DZG, Kassel, Germany (2023)
-- Invited speaker at Durham, UK (2022)
+- Invited speaker at Spider Workshop, Durham, UK (2022)
 - Speaker at Darwin Tree of Life, UK (2021)
 - Speaker at SpiderWeb, Göttingen, Germany (2017)
 - Speaker at SpiderWeb, Jena, Germany (2014)
@@ -178,4 +178,4 @@ Published three first-author papers and received accolades for presentations and
 - Outreach with In2Science (2019) and primary schools (2014 – 2017)
 
 ## Gatsby Plant Summer School (2011):
-Experience and training in ideas and solutions in plant science.
+Experience and training in research ideas and solutions in plant science.
