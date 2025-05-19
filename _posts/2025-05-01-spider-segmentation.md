@@ -1,6 +1,6 @@
 ---
 title: Spider posterior segmenation
-date: 2024-11-01
+date: 2025-05-01
 tags: 
 image: /images/spider-wgd.webp
 excerpt: The genetic mechanisms that control spider posterior segmentation during development

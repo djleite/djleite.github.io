@@ -1,5 +1,5 @@
 ---
-title: Genome assembly of a polyclad flatworm genome
+title: Genome of a polyclad flatworm
 date: 2024-11-01
 tags: [featured]
 image: /images/flatworm.webp

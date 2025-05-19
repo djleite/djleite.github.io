@@ -1,6 +1,6 @@
 ---
 title: Single-cell analyses of spider development
-date: 2024-11-01
+date: 2025-05-01
 tags: [featured]
 image: /images/sc-spider-crop.webp
 excerpt: Capturing new insights of spider development with single-cell RNA sequencing
