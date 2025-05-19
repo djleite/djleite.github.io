@@ -4,9 +4,9 @@ title: Research Projects
 permalink: /projects/
 ---
 
-<h3 style="margin-top: 2rem; margin-bottom: 1rem; text-align: center;">
+<h4 style="margin-top: 2rem; margin-bottom: 1rem; text-align: center;">
   These are research projects that I have lead or collaborated.
-</h3>
+</h4>
 
 <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 2rem; margin-top: 2rem;">
   {% for post in site.posts %}
