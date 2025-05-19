@@ -26,7 +26,7 @@ I surveyed genomic and transcriptomic resources across arthropods to systematica
 
 This survey of homeobox genes duplication has been extended as genomic resources improved in contiguity and diversity ([Aase-Remedios <i>et al</i> 2023](https://academic.oup.com/mbe/article/40/12/msad239/7341927)). Given the improvement of contiguity we have been able to contextualise the syntenic relationships of homeobox clusters, and how their rearrangements between species coincide with genomic shuffling (fig 3).
 
-![Spider WGD synteny](/images/spider-wdg-full.webp)
+![Spider WGD synteny](/images/spider-wgd-full.webp)
 <p style="text-align:left; font-size: 0.85rem; line-height: 1.2;"><b>Figure 3: Syntenic relationship between spider genomes.</b> Homeobox cluster rearrangement coincide which genomic rearrangements.</p>
 
 ## Sox genes
