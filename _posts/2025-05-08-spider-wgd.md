@@ -1,6 +1,6 @@
 ---
 title: Chelicerate whole genome duplications
-date: 2025-04-01
+date: 2025-05-08
 tags: [featured]
 image: /images/spider-wgd.webp
 excerpt: Impact of genome evolution in chelicerate lineages with whole genome duplication
