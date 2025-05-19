@@ -8,19 +8,24 @@ excerpt: Capturing new insights of spider development with single-cell RNA seque
 
 ## Background
 
-Arthopods are and extremely diverse groupd of animals. Spiders represent an early branch of arthopods called chelicerates. Understanding the genetics mechanisms of developmental process in these animals, and comparing them to other arthropods has helped to reveal how arthopod development has evolved.....
+Spiders belong to the extremely morphologically diverse group of animals called arthropods. Comparisons of spider development to other organisms like centipedes, crustaceans, and insects, have informed us about the evolution of a variety of different things like segmentation, eye development, limb development, and much more. To deepen these insights, we used single-cell RNA sequencing to analyse three stages of spider development. During these three stages (stages 7, 8.1 and 9.1) key developmental process happen, such as segmentation, Hox patterning, limb development and head patterning.
 
-Segmentation
-Eye development
-Hox evolution
+## Cell dissociations and SPLiT-Seq
+The first step in single-cell analysis is to be able to break your desired tissue into single cells. We used a technique called ACME, which mildly chemically fixes tissue before mechanical shearing to break cells apart from each other. They were then FACS sorted and cleaned up from cellular debris. The cells were then distributed on a plate, unique molecular identifiers (UMI) were annealled to mRNAs, and cells then underwent four rounds of mRNA barcoding and resorting, so that each cell was uniquely barcoded. With each mRNA now containing a UMI and cell barcode, cells were lysed and RNA sequencing libraries were constructed and sequenced.
 
-## Cell dissociations
-links to other papers
+## Identifying spider cell clusters
+To identify cell clusters the expression of variably expressed genes were used for principal component analysis, knn clustering and UMAP/tSNE projection. Each stage was processed separately, and altogether using integration methods. This provided marker genes from cell clusters across different datasets that we compared to downstream embryonic expression pattern analyses.
 
-## SPLiTseq
-link to split seq paper
+![Spider single cell sequencing](/images/spider-sc-fig1.webp)
+<p style="text-align:left; font-size: 0.85rem; line-height: 1.2;"><b>Figure 1: .</b> .</p>
 
-## Bioinformatic analyses
+## Hox gene expression
+Hox genes are import developmental paterning genes that are duplicated in spiders due to an [ancestral whole genome duplication](/spider-wgd). 
+
+![Single cell Hox analysis](/images/spider-sc-fig2.webp)
+<p style="text-align:left; font-size: 0.85rem; line-height: 1.2;"><b>Figure 2: .</b> .</p>
+
+## New genes in posterior segmentation
 
 
-## Insights
+## 
