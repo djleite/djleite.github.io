@@ -2,7 +2,7 @@
 title: Chelicerate whole genome duplications
 date: 2025-05-08
 tags: [featured]
-image: /images/spider-wgd.webp
+image: /images/spider-wgd-full.webp
 excerpt: Impact of genome evolution in chelicerate lineages with whole genome duplication
 ---
 
@@ -19,7 +19,7 @@ Our analysis of some of the first spider and scorpion genomes (<a href="https://
 ## Homeobox genes
 One of the hallmarks of WGD in animal lineages are the presence of duplcate Hox clusters. In the <i>P. tepidariorum</i> and <i>C. sculpturatus</i> genomes, we identified almost intact duplicate Hox clusters (<a href="https://bmcbiol.biomedcentral.com/articles/10.1186/s12915-017-0399-x" target="_blank" rel="noopener noreferrer">Schwager <i>et al</i> 2017</a>).
 
-Phylogenetic surveys of genomic and transcriptomic resources across arthropods systematically identified homeobox gene duplication (<a href="https://academic.oup.com/mbe/article/35/9/2240/5040134" target="_blank" rel="noopener noreferrer">Leite <i>et al</i> 2018</a>). This analysis captured a clear signal that approximately 50% of homeobox gene families were duplicated in arachnopulmonates, with conservation of homeobox family duplication across arachnopulmonate species.
+Phylogenetic surveys of genomic and transcriptomic resources across arthropods systematically identified homeobox gene duplication (<a href="https://academic.oup.com/mbe/article/35/9/2240/5040134" target="_blank" rel="noopener noreferrer">Leite  <i>et al</i> 2018</a>). This analysis captured a clear signal that approximately 50% of homeobox gene families were duplicated in arachnopulmonates, with conservation of homeobox family duplication across arachnopulmonate species.
 
 ![Arthropod homeobox genes](/images/spider-homeobox.webp)
 <p style="text-align:left; font-size: 0.85rem; line-height: 1.2;"><b>Figure 2: Comparison of homeobox repertoires in arthropods reveals pervasive duplication in arachnopulmonates.</b> The copy number of homeobox families is generally greater in arachnopulmonates compared with other arthropods.</p>
@@ -46,7 +46,7 @@ Using small RNA-Seq and bioinformatic pipelines we were able to identify miRNAs 
 ## Impact
 To understand the impact of WGD and the downstream consequences, we used the spider <i>P. tepidariourm</i> to look at the embryonic expression. Using techniques like immunohistochemistry (ISH) and microscopy, we were able to see where and when genes were expressed. Coupled with gene disruption techniques like RNAi we could also see the potential roles of each gene.
 
-Hox genes showed remarkable changes in their anterior-posterior and temporal expression, highlighting the changes in body plan regulation (<a href="https://bmcbiol.biomedcentral.com/articles/10.1186/s12915-017-0399-x" target="_blank" rel="noopener noreferrer">Schwager <i>et al</i> 2017</a>). These changes could be seen in [single-cell RNA-Seq dataset](/_posts/2025-05-07-spider-single-cell.md) (<a href="https://evodevojournal.biomedcentral.com/articles/10.1186/s13227-024-00224-4" target="_blank" rel="noopener noreferrer">Leite<i>et al</i> 2024</a>), where duplicates were expressed in different cell clusters, suggesting that duplicates have undergone sub- and neo- functionalisation.
+Hox genes showed remarkable changes in their anterior-posterior and temporal expression, highlighting the changes in body plan regulation (<a href="https://bmcbiol.biomedcentral.com/articles/10.1186/s12915-017-0399-x" target="_blank" rel="noopener noreferrer">Schwager <i>et al</i> 2017</a>). These changes could be seen in [single-cell RNA-Seq dataset](/spider-single-cell) (<a href="https://evodevojournal.biomedcentral.com/articles/10.1186/s13227-024-00224-4" target="_blank" rel="noopener noreferrer">Leite<i>et al</i> 2024</a>), where duplicates were expressed in different cell clusters, suggesting that duplicates have undergone sub- and neo- functionalisation.
 
-Additionally, Sox gene duplication and evolution showed interesting divergences in [posterior segmentation regulation](/_posts/2025-05-01-spider-segmentation.md), both with the spider and compared to other arthopods (<a href="https://elifesciences.org/articles/37567" target="_blank" rel="noopener noreferrer">Paese <i>et al</i> 2018a</a>; <a href="https://bmcecolevol.biomedcentral.com/articles/10.1186/s12862-018-1337-4" target="_blank" rel="noopener noreferrer">Paese <i>et al</i> 2018b</a>).
+Additionally, Sox gene duplication and evolution showed interesting divergences in [posterior segmentation regulation](/spider-segmentation), both with the spider and compared to other arthopods (<a href="https://elifesciences.org/articles/37567" target="_blank" rel="noopener noreferrer">Paese <i>et al</i> 2018a</a>; <a href="https://bmcecolevol.biomedcentral.com/articles/10.1186/s12862-018-1337-4" target="_blank" rel="noopener noreferrer">Paese <i>et al</i> 2018b</a>).
 
