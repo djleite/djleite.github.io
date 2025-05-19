@@ -1,7 +1,7 @@
 ---
 title: Genome of a polyclad flatworm
 date: 2025-05-04
-tags: [featured]
+tags: [featured, unpost]
 image: /images/flatworm.webp
 excerpt: Sequencing and assembly of the <i>Prostheceraeus crozieri</i> genome
 ---
