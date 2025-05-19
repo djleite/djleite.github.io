@@ -11,13 +11,19 @@ excerpt: Impact of genome evolution in chelicerate lineages with whole genome du
 Whole genome duplication (WGD) contributes large additions of genetic material that impacts genome evolution. The evolution of additional coding and non-coding elements can alter the regulation of developmental processes, resulting in phenotypic change and diversification. Analyses of genomic and transcriptomic data has revealed that the arthropod subphylum of Chelicerata contains multiple WGDs. This includes a single WGD in the ancestor of arachnopulmonates (spiders, scorpions, and their relatives), and independently three WGDs in the lineage of horseshoe crabs (fig 1).
 
 ![Chelicerate phylogeny](/images/chelicerate-phy.webp)
-<p style="text-align:center; font-size: 0.85rem; line-height: 1.2;"><b>The arthropod phylogeny.</b> Representatives of chelicerates, including spiders (<i>P. tepidariorum</i>, <i>S. mimosarum</i>, and <i>A. geniculata</i>) and scorpions (<i>C. sculpturatus</i> and <i>M. martensii</i>), a tick (<i>I. scapularis</i>), a mite (<i>T. urticae</i>), and a horseshoe crab (<i>L. polyphemus</i>), as well as representatives of Myriapoda (<i>S. maritima</i>), Crustacea (<i>D. pulex</i>), and Insecta (<i>D. melanogaster</i>).</p>
+<p style="text-align:left; font-size: 0.85rem; line-height: 1.2;"><b>Figure 1: The arthropod phylogeny.</b> Representatives of chelicerates, including spiders (<i>P. tepidariorum</i>, <i>S. mimosarum</i>, and <i>A. geniculata</i>) and scorpions (<i>C. sculpturatus</i> and <i>M. martensii</i>), a tick (<i>I. scapularis</i>), a mite (<i>T. urticae</i>), and a horseshoe crab (<i>L. polyphemus</i>), as well as representatives of Myriapoda (<i>S. maritima</i>), Crustacea (<i>D. pulex</i>), and Insecta (<i>D. melanogaster</i> and <i>T. castaneum</i>).</p>
 
 ## Genomes of spiders and scorpions
-2017 schwager
+Our analysis of some of the first spider and scorpion genomes ([Schwager <i>et al</i> 2017](https://bmcbiol.biomedcentral.com/articles/10.1186/s12915-017-0399-x)) revealed evidence of WGD. The evidence included elevated duplication levels of BUSCO genes, duplication of many developmental genes (e.g. [homeobox genes](/_posts/2025-05-08-spider-wgd.md#homeobox-genes) and [Sox genes](_posts/2025-05-08-spider-wgd.md#sox-genes)), conservation of synteny between genomic scaffolds and gene clusters, and phylogenetics signatures from gene tree topologies.
 
 ## Homeobox genes
-- 2018 leite
+One of the hallmarks of WGD in animal lineages are the presence of duplcate Hox clusters. In the <i>P. tepidariorum</i> and <i>C. sculpturatus</i> genomes, we identified almost intact duplicate Hox clusters.
+
+I went on to survey genomic and transcriptomic resources across arthropods to systematicall survey homeobox gene duplication ([Leite <i>et al</i> 2018](https://academic.oup.com/mbe/article/35/9/2240/5040134)). This analysis captured a clear signal that approximately 50% of homeobox gene families were duplicated in arachnopulmonates, with conservation of duplication across arachnopulmonate species.
+
+![Arthropod homeobox genes](/images/spider-homeobox.webp)
+<p style="text-align:left; font-size: 0.85rem; line-height: 1.2;"><b>Figure 2: Comparison of homeobox repertoires in arthropods reveals pervasive duplication in arachnopulmonates.</b> The copy number of homeobox families is generally greater in arachnopulmonates compared with other arthropods.</p>
+
 - 2023 madda
 - 2024 leite single cell - show homeobox changes
 
