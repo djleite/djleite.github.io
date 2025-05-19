@@ -5,8 +5,11 @@ permalink: /cv/
 ---
 
 [Skills](/cv#skills)
+
 [Experience](/cv#experience)
+
 [Education](/cv#education)
+
 [Other](/cv#other)
 
 ***
