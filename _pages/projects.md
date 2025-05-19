@@ -5,7 +5,7 @@ permalink: /projects/
 ---
 
 <h3 style="margin-top: 2rem; margin-bottom: 1rem; text-align: center;">
-  These projects outline research that I have lead or been part of a collaboration.
+  These are research projects that I have lead or collaborated.
 </h3>
 
 <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 2rem; margin-top: 2rem;">
