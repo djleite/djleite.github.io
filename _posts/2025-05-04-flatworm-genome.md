@@ -1,7 +1,7 @@
 ---
 title: Genome of a polyclad flatworm
 date: 2025-05-04
-tags: [featured, unpost]
+tags: [featured]
 image: /images/flatworm.webp
 excerpt: Sequencing and assembly of the <i>Prostheceraeus crozieri</i> genome
 ---
@@ -24,10 +24,10 @@ The flatworms were collected into large salt-water tanks.
 ![A close up of the Prostheceraeus crozieri anterior](/images/flatworm_closeup.webp)
 <p style="text-align:center;"><i>A close up of the head of</i> Prostheceraeus crozieri</p>
 
-## HMW extraction
-
 ## Sequence and assembly
+- Challenges of a repeat rich genome
+- 
 
 ## Key findings
-
-## Implications and uses
+- large repetitive genome
+- no WGD

@@ -1,14 +1,14 @@
 ---
 title: Single-cell analyses of spider development
 date: 2025-05-07
-tags: [featured, unpost]
+tags: [featured]
 image: /images/sc-spider-crop.webp
 excerpt: Capturing new insights of spider development with single-cell RNA sequencing
 ---
 
 ## Background
 
-Spiders belong to the extremely morphologically diverse group of animals called arthropods. Comparisons of spider development to other organisms like centipedes, crustaceans, and insects, have informed us about the evolution of a variety of different things like segmentation, eye development, limb development, and much more. To deepen these insights, we used single-cell RNA sequencing to analyse three stages of spider development. During these three stages (stages 7, 8.1 and 9.1) key developmental process happen, such as segmentation, Hox patterning, limb development and head patterning.
+Spiders belong to the extremely morphologically diverse group of animals called arthropods. Comparisons of spider development to other organisms like centipedes, crustaceans, and insects, have informed us about the evolution of a variety of different things like segmentation, eye development, limb development, and much more. To deepen these insights, we used single-cell RNA sequencing to analyse three stages (7, 8.1 and 9.1) of spider development. During these three stages key developmental process happen, such as segmentation, Hox patterning, limb development and head patterning.
 
 ## Cell dissociations and SPLiT-Seq
 The first step in single-cell analysis is to be able to break your desired tissue into single cells. We used a technique called ACME, which mildly chemically fixes tissue before mechanical shearing to break cells apart from each other. They were then FACS sorted and cleaned up from cellular debris. The cells were then distributed on a plate, unique molecular identifiers (UMI) were annealled to mRNAs, and cells then underwent four rounds of mRNA barcoding and resorting, so that each cell was uniquely barcoded. With each mRNA now containing a UMI and cell barcode, cells were lysed and RNA sequencing libraries were constructed and sequenced.
