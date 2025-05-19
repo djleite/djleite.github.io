@@ -19,7 +19,7 @@ Our analysis of some of the first spider and scorpion genomes ([Schwager <i>et a
 ## Homeobox genes
 One of the hallmarks of WGD in animal lineages are the presence of duplcate Hox clusters. In the <i>P. tepidariorum</i> and <i>C. sculpturatus</i> genomes, we identified almost intact duplicate Hox clusters.
 
-I surveyed genomic and transcriptomic resources across arthropods to systematically survey homeobox gene duplication ([Leite <i>et al</i> 2018](https://academic.oup.com/mbe/article/35/9/2240/5040134)). This analysis captured a clear signal that approximately 50% of homeobox gene families were duplicated in arachnopulmonates, with conservation of duplication across arachnopulmonate species.
+I surveyed genomic and transcriptomic resources across arthropods to systematically survey homeobox gene duplication (<a href="https://academic.oup.com/mbe/article/35/9/2240/5040134" target="_blank" rel="noopener noreferrer">Leite <i>et al</i> 2018</a>). This analysis captured a clear signal that approximately 50% of homeobox gene families were duplicated in arachnopulmonates, with conservation of duplication across arachnopulmonate species.
 
 ![Arthropod homeobox genes](/images/spider-homeobox.webp)
 <p style="text-align:left; font-size: 0.85rem; line-height: 1.2;"><b>Figure 2: Comparison of homeobox repertoires in arthropods reveals pervasive duplication in arachnopulmonates.</b> The copy number of homeobox families is generally greater in arachnopulmonates compared with other arthropods.</p>
