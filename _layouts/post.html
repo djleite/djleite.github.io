@@ -2,7 +2,6 @@
 layout: default
 ---
 
-{% unless page.tags contains "unpost" %}
 <article class="post detailed">
   <!-- 🔙 Back link at top -->
   <div style="margin-bottom: 1rem;">
@@ -23,6 +22,7 @@ layout: default
     {{ content }}
   </div>
 
+
   <!-- 🔙 Back link at bottom -->
   <div style="margin-top: 2rem;">
     <a href="{{ site.baseurl }}/projects/" style="text-decoration: none;">← Back to all projects</a>
@@ -30,4 +30,3 @@ layout: default
 
   {% include disqus.html %}
 </article>
-{% endunless %}
