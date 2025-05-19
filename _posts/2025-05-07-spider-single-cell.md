@@ -26,6 +26,11 @@ Hox genes are import developmental paterning genes that are duplicated in spider
 <p style="text-align:left; font-size: 0.85rem; line-height: 1.2;"><b>Figure 2: .</b> .</p>
 
 ## New genes in posterior segmentation
+- captured strong signature of Wnt posterior expression
+- saw pair-rule genes out of phase
+- new genes that were expressed in the SAZ and the along with pair-rule phases
 
-
-## 
+## Other insights
+- Head patterning and the pre-cheliceral region - mention to spider eye project
+- Endoderm has different cellular replication dynamics
+- Hemocytes from the extra-embryonic cells
