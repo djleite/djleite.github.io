@@ -2,7 +2,7 @@
   <br>
   <br>  
   <p align="center">
-    <i>website</i>
+    Website
   </p>
 </div>
 

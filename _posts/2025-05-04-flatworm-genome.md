@@ -15,7 +15,7 @@ Our adventure started in the Florida Keys, at the [Keys Marine Lab](https://www.
 ![Looking out from the Keys Marine Lab, Florida, USA](/images/keys.webp)
 <p style="ext-align:left; font-size: 0.85rem; line-height: 1.2;"><b>Figure 1: Looking out from the Keys Marine Lab, Florida, USA.</b> The Keys are a beautiful stretch of islands, with shallow waters around. Islands are protected by mangroves along their shores.</p>
 
-The flatworms were collected into large salt-water tanks. Within a few days they were already laying hundreds of fertilised eggs. They were kept here before transportation back to the UK.
+The flatworms were collected into large salt-water tanks (fig 2). Within a few days they were already laying hundreds of fertilised eggs. They were kept here before transportation back to the UK.
 
 <video width="640" height="360" controls autoplay loop muted>
   <source src="{{ '/images/flatworm-vid.webm' | relative_url }}" type="video/webm">
