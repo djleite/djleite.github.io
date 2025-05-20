@@ -1,5 +1,5 @@
 ---
-title: Single-cell analyses of spider development
+title: Single-cell atlas of spider development
 date: 2025-05-07
 tags: [featured]
 image: /images/sc-spider-crop.webp
