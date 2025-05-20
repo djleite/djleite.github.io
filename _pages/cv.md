@@ -287,7 +287,7 @@ permalink: /cv/
   }
 
   .cv-sidebar {
-    background-color: #fce8b8;
+    background-color: #f0f9fc;
     padding: 1.5rem;
     border-radius: 1rem;
     width: 260px;
@@ -310,7 +310,7 @@ permalink: /cv/
 
   .cv-sidebar p {
     font-size: 1rem;
-    color: #4a4a4a;
+    color: #000000;
     margin-bottom: 1rem;
   }
 
@@ -320,7 +320,7 @@ permalink: /cv/
     margin: 0.5rem 0;
     padding: 0.6rem 1rem;
     background: white;
-    border: 2px solid #000000;
+    border: 2px solid #0082ad;
     color: #000000;
     font-weight: bold;
     border-radius: 0.8rem;
@@ -330,7 +330,7 @@ permalink: /cv/
   }
 
   .cv-button:hover {
-    background-color: #fab616;
+    background-color: #b8edff;
   }
 
   .cv-content {
@@ -366,7 +366,7 @@ permalink: /cv/
 
   .job-place {
     font-style: italic;
-    color: #555;
+    color: #000000;
     margin-bottom: 0.5rem;
   }
 
@@ -380,7 +380,7 @@ permalink: /cv/
   }
 
   .job-entry .toggle-btn {
-    color: #fab616;
+    color: #0082ad;
     font-size: 0.9rem;
     cursor: pointer;
     margin-top: 0.3rem;
