@@ -284,16 +284,16 @@ permalink: /cv/
     display: flex;
     flex-wrap: wrap;
     gap: 2rem;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
   }
 
   .cv-sidebar {
-    background-color: #fafafa;
+    background-color: #fab616;
     padding: 1.5rem;
     border-radius: 1rem;
     width: 260px;
     text-align: center;
     flex-shrink: 0;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
   }
 
   .cv-sidebar img {
@@ -330,7 +330,7 @@ permalink: /cv/
   }
 
   .cv-button:hover {
-    background-color: #ffcf5e;
+    background-color: #fab616;
   }
 
   .cv-content {
@@ -380,7 +380,7 @@ permalink: /cv/
   }
 
   .job-entry .toggle-btn {
-    color: #2e7d32;
+    color: #fab616;
     font-size: 0.9rem;
     cursor: pointer;
     margin-top: 0.3rem;
