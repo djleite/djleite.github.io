@@ -412,7 +412,7 @@ permalink: /cv/
 </script>
 
 
-<!-->
+<!--
 [Skills](/cv#skills)
 
 [Experience](/cv#experience)
@@ -592,4 +592,4 @@ permalink: /cv/
 ## Gatsby Plant Summer School (2011):
 Experience and training in research ideas and solutions in plant science.
 
-</!-->
+-->
