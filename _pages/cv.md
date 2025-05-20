@@ -320,7 +320,7 @@ permalink: /cv/
     margin: 0.5rem 0;
     padding: 0.6rem 1rem;
     background: white;
-    border: 2px solid #0082ad;
+    border: 1px solid #0082ad;
     color: #000000;
     font-weight: bold;
     border-radius: 0.8rem;

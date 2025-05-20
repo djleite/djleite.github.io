@@ -16,9 +16,8 @@ permalink: /publications/
     const response = await fetch('{{ site.baseurl }}/publications.yaml');
     const text = await response.text();
     const data = jsyaml.load(text);
-
     const container = document.getElementById('publication-list');
-
+    
     // Sort by year descending
     data.sort((a, b) => (b.date || 0) - (a.date || 0));
 
@@ -42,6 +41,7 @@ permalink: /publications/
 
       const li = document.createElement('li');
       li.innerHTML = output;
+      li.style.marginBottom = '1.5em';
       container.appendChild(li);
     });
   }
