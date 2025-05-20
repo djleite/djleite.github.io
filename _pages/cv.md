@@ -5,8 +5,9 @@ permalink: /cv/
 ---
 <div class="cv-container">
   <!-- Sidebar -->
-  <aside class="cv-sidebar">
-    <img src="{{ '/images/DJL_ID_photo.webp' | relative_url }}" alt="DJ Leite">
+  <aside class="cv-sidebar" style="text-align: center;">
+    <img src="{{ '/images/DJL_ID_photo.webp' | relative_url }}" alt="DJ Leite"
+      style="border: 3px solid #006400; border-radius: 8px; max-width: 100%;">
     <h2>Dr. Daniel J. Leite</h2>
     <p>Research Bioinformatician</p>
     <a class="cv-button" onclick="showSection('skills')">Skills</a>
@@ -79,70 +80,220 @@ permalink: /cv/
             <li>Species identification</li>
           </ul>
     </div>
-    # EXPERIENCE
-
-## Senior Bioinformatician and Business Developer - Pragmatic Genomics (2024 May - Oct)
-
-### Responsibilities:
-- Developed genomics SaaS tools for cloud-based analyses
-- Conceptualised ideas, reviewed and tested using agile practices and GitHub version control
-- Established and managed high and low-touch sales funnels
-- Improved CRM (Hubspot), customer engagement, automation (Make), and feedback integration
-- Optimised website (HTML/CSS), improved design, SEO (Lighthouse), online resources (blogs, tutorials, functionality information), and branding
-
-### Achievements:
-- Improved front/back-end tool functionality, UX, security, and ensured biological and scientific rigour
-- Increased B2B and B2C sales over £50k pa via improved sales funnels and CRM methods
-- Overhauled website content, performance, and resources to attract and support customers
-
 
 <!-- Experience -->
 <div id="experience" class="cv-section">
   <h2>Experience</h2>
-
   <div class="job-entry">
     <div class="job-header">
       <div class="job-title">Senior Bioinformatician and Business Developer</div>
-      <div class="job-date">2024 May – Oct</div>
+      <div class="job-date">2024 May – 2024 Oct</div>
     </div>
     <div class="job-place">Pragmatic Genomics</div>
     <div class="toggle-btn" onclick="toggleJob(this)">Show more ▼</div>
     <div class="job-description">
-      <h4>Responsibilities</h4>
+      <h4>Responsibilities:</h4>
       <ul>
-        <li>Led bioinformatics pipelines for pathogen surveillance</li>
-        <li>Developed workflows for high-throughput genomics</li>
+        <li>Developed genomics SaaS tools for cloud-based analyses</li>
+        <li>Conceptualised ideas, reviewed and tested using agile practices and GitHub version control</li>
+        <li>Established and managed high and low-touch sales funnels</li>
+        <li>Improved CRM (Hubspot), customer engagement, automation (Make), and feedback integration</li>
+        <li>Optimised website (HTML/CSS), improved design, SEO (Lighthouse), online resources (blogs, tutorials, functionality information), and branding</li>
       </ul>
-      <h4>Achievements</h4>
+      <h4>Achievements:</h4>
       <ul>
-        <li>Reduced analysis time by 40% via optimized pipelines</li>
-        <li>Established successful collaborations with three biotech firms</li>
+        <li>Improved front/back-end tool functionality, UX, security, and ensured biological and scientific rigour</li>
+        <li>Increased B2B and B2C sales over £50k pa via improved sales funnels and CRM methods</li>
+        <li>Overhauled website content, performance, and resources to attract and support customers</li>
+      </ul>
+    </div>
+  </div>
+
+## Postdoctoral Researcher – Durham University (2020 – 2024)
+
+### Responsibilities:
+- Co-led team coordination, international collaborations, resource and fund management
+- Conceived experimental design, technical analyses and scientific interpretations 
+- Managed data collections, archiving, task designation, communications and publications
+- Mentored and supervised Postdocs/PhDs/undergraduates, teaching computational analyses
+
+### Achievements:
+- Discovered and published new insights of spider development at single-cell resolution 
+- Assembling and annotating four new spider genomes using NGS long-read (PacBio HiFi/Iso-Seq) and short-read (Illumina DNA/RNA-Seq and Arima HiC) technologies
+- Developed novel bioinformatic approaches for studying genome synteny and evolution
+
+### Projects:
+- Single-cell RNA-Seq (SPLiTseq) transcriptomics analyses of spider development 
+- Systematic identification of duplicate genes in chelicerate whole genome duplications
+
+
+  <div class="job-entry">
+    <div class="job-header">
+      <div class="job-title">Senior Bioinformatician and Business Developer</div>
+      <div class="job-date">2024 May – 2024 Oct</div>
+    </div>
+    <div class="job-place">Pragmatic Genomics</div>
+    <div class="toggle-btn" onclick="toggleJob(this)">Show more ▼</div>
+    <div class="job-description">
+      <h4>Responsibilities:</h4>
+      <ul>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+      </ul>
+      <h4>Achievements:</h4>
+      <ul>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+      </ul>
+      <h4>Projects:</h4>
+      <ul>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
       </ul>
     </div>
   </div>
 
   <div class="job-entry">
     <div class="job-header">
-      <div class="job-title">Postdoctoral Researcher</div>
-      <div class="job-date">2019 – 2022</div>
+      <div class="job-title">Senior Bioinformatician and Business Developer</div>
+      <div class="job-date">2024 May – 2024 Oct</div>
     </div>
-    <div class="job-place">University College London</div>
+    <div class="job-place">Pragmatic Genomics</div>
     <div class="toggle-btn" onclick="toggleJob(this)">Show more ▼</div>
     <div class="job-description">
-      <h4>Responsibilities</h4>
+      <h4>Responsibilities:</h4>
       <ul>
-        <li>Designed evolutionary models of RNA virus mutation</li>
-        <li>Maintained reproducible research codebase</li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
       </ul>
-      <h4>Achievements</h4>
+      <h4>Achievements:</h4>
       <ul>
-        <li>Published 3 peer-reviewed papers in high-impact journals</li>
-        <li>Presented findings at 5 international conferences</li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+      </ul>
+      <h4>Projects:</h4>
+      <ul>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
       </ul>
     </div>
   </div>
+
+  <div class="job-entry">
+    <div class="job-header">
+      <div class="job-title">Senior Bioinformatician and Business Developer</div>
+      <div class="job-date">2024 May – 2024 Oct</div>
+    </div>
+    <div class="job-place">Pragmatic Genomics</div>
+    <div class="toggle-btn" onclick="toggleJob(this)">Show more ▼</div>
+    <div class="job-description">
+      <h4>Responsibilities:</h4>
+      <ul>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+      </ul>
+      <h4>Achievements:</h4>
+      <ul>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+      </ul>
+      <h4>Projects:</h4>
+      <ul>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="job-entry">
+    <div class="job-header">
+      <div class="job-title">Senior Bioinformatician and Business Developer</div>
+      <div class="job-date">2024 May – 2024 Oct</div>
+    </div>
+    <div class="job-place">Pragmatic Genomics</div>
+    <div class="toggle-btn" onclick="toggleJob(this)">Show more ▼</div>
+    <div class="job-description">
+      <h4>Responsibilities:</h4>
+      <ul>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+      </ul>
+      <h4>Achievements:</h4>
+      <ul>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+      </ul>
+      <h4>Projects:</h4>
+      <ul>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="job-entry">
+    <div class="job-header">
+      <div class="job-title">Senior Bioinformatician and Business Developer</div>
+      <div class="job-date">2024 May – 2024 Oct</div>
+    </div>
+    <div class="job-place">Pragmatic Genomics</div>
+    <div class="toggle-btn" onclick="toggleJob(this)">Show more ▼</div>
+    <div class="job-description">
+      <h4>Responsibilities:</h4>
+      <ul>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+      </ul>
+      <h4>Achievements:</h4>
+      <ul>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+      </ul>
+      <h4>Projects:</h4>
+      <ul>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+      </ul>
+    </div>
+  </div>
+
 </div>
-    <!-- Education -->
+<!-- Education -->
     <div id="education" class="cv-section">
       <h2>Education</h2>
       <div class="job-entry expanded">
