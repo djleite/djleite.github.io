@@ -234,13 +234,12 @@ permalink: /cv/
       </div>
       <div class="job-entry expanded">
         <div class="job-header">
-          <div class="job-title">BSc in Biology</div>
+          <div class="job-title">BSc in Biology (1st Class Honours)</div>
           <div class="job-date">2010 – 2013</div>
         </div>
         <div class="job-place">Oxford Brookes University</div>
         <div class="job-description">
           <ul>
-            <li>1st Class Honours</li>
             <li>Evolutionary</li>
             <li>Developmental</li>
             <li>Molecular</li>
@@ -290,7 +289,7 @@ permalink: /cv/
   .cv-container {
     display: flex;
     flex-wrap: wrap;
-    gap: 2rem;
+    gap: 3rem;
   }
 
   .cv-sidebar {
