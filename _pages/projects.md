@@ -11,13 +11,13 @@ permalink: /projects/
 <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 2rem; margin-top: 2rem;">
   {% for post in site.posts %}
     {% unless post.tags contains "unpost" %}
-      <div style="display: flex; flex-direction: column; border: 1px solid #e0e0e0; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 5px rgba(0,0,0,0.05);">
+      <div style="display: flex; flex-direction: column; border: 1px solid #e0e0e0; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 5px rgba(0,0,0,0.05); height: 100%;">
         <a href="{{ post.url | relative_url }}">
           {% if post.image %}
             <img src="{{ post.image | relative_url }}" alt="{{ post.title }}" style="width: 100%; height: 180px; object-fit: cover;">
           {% endif %}
         </a>
-        <div style="padding: 1rem; display: flex; flex-direction: column; flex-grow: 1;">
+        <div style="padding: 1rem; display: flex; flex-direction: column; flex-grow: 1; height: 100%;">
           <h3 style="margin-top: 0;">
             <a href="{{ post.url | relative_url }}" style="text-decoration: none; color: #333;">{{ post.title }}</a>
           </h3>
@@ -30,3 +30,4 @@ permalink: /projects/
     {% endunless %}
   {% endfor %}
 </div>
+
