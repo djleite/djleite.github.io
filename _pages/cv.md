@@ -7,15 +7,13 @@ permalink: /cv/
   <!-- Sidebar -->
   <aside class="cv-sidebar">
     <img src="{{ '/images/DJL_ID_photo.webp' | relative_url }}" alt="DJ Leite">
-    <h2>Dr. DJ Leite</h2>
+    <h2>Dr. Daniel J. Leite</h2>
     <p>Research Bioinformatician</p>
-
     <a class="cv-button" onclick="showSection('skills')">Skills</a>
     <a class="cv-button" onclick="showSection('experience')">Experience</a>
     <a class="cv-button" onclick="showSection('education')">Education</a>
     <a class="cv-button" onclick="showSection('other')">Other</a>
-
-    <a class="cv-button" href="https://github.com/djleite/djleite.github.io/raw/main/files/DJ_Leite_CV.pdf" target="_blank">⬇ Download PDF</a>
+    <a class="cv-button" href="https://github.com/djleite/djleite.github.io/raw/main/files/DJ_Leite_CV.pdf" target="_blank">Download CV</a>
   </aside>
 
   <!-- Main Content -->
@@ -23,49 +21,127 @@ permalink: /cv/
     <!-- Skills -->
     <div id="skills" class="cv-section active">
       <h2>Skills</h2>
+        <h3>Management:</h3>
+          <ul>
+            <li>Conceptualisation</li>
+            <li>Team coordination</li>
+            <li>Experimental design</li>
+            <li>Project planning</li>
+            <li>Scheduling</li>
+            <li>Resources management</li>
+            <li>Fund management</li>
+            <li>Data archiving</li>
+            <li>CRM</li>
+            <li>Agile</li>
+          </ul>
+        <h3>Communication:</h3>
+            <ul>
+            <li>Presentation</li>
+            <li>Teaching</li>
+            <li>Mentoring</li>
+            <li>Collaborating</li>
+            <li><a href="https://djleite.github.io/publications" target="_blank">Publishing</a> (cited &gt;700 times)</li>
+          </ul>
+        <h3>Computational:</h3>
+          <ul>
+            <li>Bioinformatics</li>
+            <li>Python</li>
+            <li>R</li>
+            <li>Bash</li>
+            <li>HPC</li>
+            <li>Linux/Mac/Win OS</li>
+            <li>Command-line</li>
+            <li>Tool development</li>
+            <li>Genome assembly</li>
+            <li>Genome annotation</li>
+            <li>Single-cell sequencing</li>
+            <li>Non-coding DNA/RNA annotation</li>
+            <li>Transcriptomics</li>
+            <li>Phylogenetics</li>
+            <li>SNP/Variant Calling</li>
+            <li>Visualisation</li>
+            <li>Statistics</li>
+            <li>Microsoft Office</li>
+            <li>Data archiving</li>
+            <li>GitHub</li>
+          </ul>
+        <h3>Laboratory techniques:</h3>
+          <ul>
+            <li>DNA/RNA extraction</li>
+            <li>NGS library preparation</li>
+            <li>PCR</li>
+            <li>Cloning</li>
+            <li>in-situ hybridisation</li>
+            <li>Molecular biology</li>
+            <li>Immunohistochemistry</li>
+            <li>Microscopy (bright-field/confocal/SEM/TEM)</li>
+            <li>Invertebrate husbandry</li>
+            <li>Species identification</li>
+          </ul>
+    </div>
+    # EXPERIENCE
+
+## Senior Bioinformatician and Business Developer - Pragmatic Genomics (2024 May - Oct)
+
+### Responsibilities:
+- Developed genomics SaaS tools for cloud-based analyses
+- Conceptualised ideas, reviewed and tested using agile practices and GitHub version control
+- Established and managed high and low-touch sales funnels
+- Improved CRM (Hubspot), customer engagement, automation (Make), and feedback integration
+- Optimised website (HTML/CSS), improved design, SEO (Lighthouse), online resources (blogs, tutorials, functionality information), and branding
+
+### Achievements:
+- Improved front/back-end tool functionality, UX, security, and ensured biological and scientific rigour
+- Increased B2B and B2C sales over £50k pa via improved sales funnels and CRM methods
+- Overhauled website content, performance, and resources to attract and support customers
+
+
+<!-- Experience -->
+<div id="experience" class="cv-section">
+  <h2>Experience</h2>
+
+  <div class="job-entry">
+    <div class="job-header">
+      <div class="job-title">Senior Bioinformatician and Business Developer</div>
+      <div class="job-date">2024 May – Oct</div>
+    </div>
+    <div class="job-place">Pragmatic Genomics</div>
+    <div class="toggle-btn" onclick="toggleJob(this)">Show more ▼</div>
+    <div class="job-description">
+      <h4>Responsibilities</h4>
       <ul>
-        <li>Python, R, Bash</li>
-        <li>Genomic data analysis</li>
-        <li>Workflow automation</li>
-        <li>Linux, HPC clusters, Docker</li>
+        <li>Led bioinformatics pipelines for pathogen surveillance</li>
+        <li>Developed workflows for high-throughput genomics</li>
+      </ul>
+      <h4>Achievements</h4>
+      <ul>
+        <li>Reduced analysis time by 40% via optimized pipelines</li>
+        <li>Established successful collaborations with three biotech firms</li>
       </ul>
     </div>
+  </div>
 
-    <!-- Experience -->
-    <div id="experience" class="cv-section">
-      <h2>Experience</h2>
-
-      <div class="job-entry">
-        <div class="job-header">
-          <div class="job-title">Senior Bioinformatician</div>
-          <div class="job-date">2022 – Present</div>
-        </div>
-        <div class="job-place">University of Oxford</div>
-        <div class="toggle-btn" onclick="toggleJob(this)">Show more ▼</div>
-        <div class="job-description">
-          <ul>
-            <li>Led bioinformatics pipelines for pathogen surveillance</li>
-            <li>Developed workflows for high-throughput genomics</li>
-          </ul>
-        </div>
-      </div>
-
-      <div class="job-entry">
-        <div class="job-header">
-          <div class="job-title">Postdoctoral Researcher</div>
-          <div class="job-date">2019 – 2022</div>
-        </div>
-        <div class="job-place">University College London</div>
-        <div class="toggle-btn" onclick="toggleJob(this)">Show more ▼</div>
-        <div class="job-description">
-          <ul>
-            <li>Designed evolutionary models of RNA virus mutation</li>
-            <li>Maintained reproducible research codebase</li>
-          </ul>
-        </div>
-      </div>
+  <div class="job-entry">
+    <div class="job-header">
+      <div class="job-title">Postdoctoral Researcher</div>
+      <div class="job-date">2019 – 2022</div>
     </div>
-
+    <div class="job-place">University College London</div>
+    <div class="toggle-btn" onclick="toggleJob(this)">Show more ▼</div>
+    <div class="job-description">
+      <h4>Responsibilities</h4>
+      <ul>
+        <li>Designed evolutionary models of RNA virus mutation</li>
+        <li>Maintained reproducible research codebase</li>
+      </ul>
+      <h4>Achievements</h4>
+      <ul>
+        <li>Published 3 peer-reviewed papers in high-impact journals</li>
+        <li>Presented findings at 5 international conferences</li>
+      </ul>
+    </div>
+  </div>
+</div>
     <!-- Education -->
     <div id="education" class="cv-section">
       <h2>Education</h2>
@@ -83,7 +159,6 @@ permalink: /cv/
         </div>
       </div>
     </div>
-
     <!-- Other -->
     <div id="other" class="cv-section">
       <h2>Other</h2>
@@ -222,7 +297,7 @@ permalink: /cv/
 </script>
 
 
-
+<!-->
 [Skills](/cv#skills)
 
 [Experience](/cv#experience)
@@ -401,3 +476,5 @@ permalink: /cv/
 
 ## Gatsby Plant Summer School (2011):
 Experience and training in research ideas and solutions in plant science.
+
+</!-->
