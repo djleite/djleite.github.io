@@ -7,7 +7,7 @@ permalink: /cv/
   <!-- Sidebar -->
   <aside class="cv-sidebar" style="text-align: center;">
     <img src="{{ '/images/DJL_ID_photo.webp' | relative_url }}" alt="DJ Leite">
-    <h2>Daniel J. Leite</h2>
+    <h2>Dr. Daniel J. Leite</h2>
     <p>Research Bioinformatician</p>
     <a class="cv-button" onclick="showSection('experience')">Experience</a>
     <a class="cv-button" onclick="showSection('skills')">Skills</a>
@@ -18,7 +18,137 @@ permalink: /cv/
 
   <!-- Main Content -->
   <div class="cv-content">
-    <!-- Skills -->
+    <!-- Experience -->
+    <div id="experience" class="cv-section">
+    <h2>Experience</h2>
+    <div class="job-entry">
+        <div class="job-header">
+        <div class="job-title">Senior Bioinformatician and Business Developer</div>
+        <div class="job-date">2024 May – Oct</div>
+        </div>
+        <div class="job-place">Pragmatic Genomics</div>
+        <div class="toggle-btn" onclick="toggleJob(this)">Show more ▼</div>
+        <div class="job-description">
+        <h4>Responsibilities:</h4>
+        <ul>
+            <li>Developed genomics SaaS tools for cloud-based analyses</li>
+            <li>Conceptualised ideas, reviewed and tested using agile practices and GitHub version control</li>
+            <li>Established and managed high and low-touch sales funnels</li>
+            <li>Improved CRM (Hubspot), customer engagement, automation (Make), and feedback integration</li>
+            <li>Optimised website (HTML/CSS), improved design, SEO (Lighthouse), online resources (blogs, tutorials, functionality information), and branding</li>
+        </ul>
+        <h4>Achievements:</h4>
+        <ul>
+            <li>Improved front/back-end tool functionality, UX, security, and ensured biological and scientific rigour</li>
+            <li>Increased B2B and B2C sales over £50k pa via improved sales funnels and CRM methods</li>
+            <li>Overhauled website content, performance, and resources to attract and support customers</li>
+        </ul>
+        </div>
+    </div>
+    <div class="job-entry">
+        <div class="job-header">
+        <div class="job-title">Postdoctoral Researcher</div>
+        <div class="job-date">2020 – 2024</div>
+        </div>
+        <div class="job-place">Durham University</div>
+        <div class="toggle-btn" onclick="toggleJob(this)">Show more ▼</div>
+        <div class="job-description">
+        <h4>Responsibilities:</h4>
+        <ul>
+            <li>Co-led team coordination, international collaborations, resource and fund management</li>
+            <li>Conceived experimental design, technical analyses and scientific interpretations</li>
+            <li>Managed data collections, archiving, task designation, communications and publications</li>
+            <li>Mentored and supervised Postdocs/PhDs/undergraduates, teaching computational analyses</li>
+        </ul>
+        <h4>Achievements:</h4>
+        <ul>
+            <li>Discovered and published new insights of spider development at single-cell resolution</li>
+            <li>Assembling and annotating four new spider genomes using NGS long-read (PacBio HiFi/Iso-Seq) and short-read (Illumina DNA/RNA-Seq and Arima HiC) technologies</li>
+            <li>Developed novel bioinformatic approaches for studying genome synteny and evolution</li>
+        </ul>
+        <h4>Projects:</h4>
+        <ul>
+            <li>Single-cell RNA-Seq (SPLiTseq) transcriptomics analyses of spider development</li>
+            <li>Systematic identification of duplicate genes in chelicerate whole genome duplications</li>
+        </ul>
+        </div>
+    </div>
+    <div class="job-entry">
+        <div class="job-header">
+        <div class="job-title">Associate Lecturer</div>
+        <div class="job-date">2021 – 2023</div>
+        </div>
+        <div class="job-place">Oxford Brookes University</div>
+        <div class="toggle-btn" onclick="toggleJob(this)">Show more ▼</div>
+        <div class="job-description">
+        <h4>Responsibilities:</h4>
+        <ul>
+            <li>Design course material and examinations, in coordination with co-lecturers</li>
+            <li>Taught theoretical and bioinformatic practical sessions and mentoring undergraduate students</li>
+        </ul>
+        <h4>Achievements:</h4>
+        <ul>
+            <li>Received excellent feedback from students and co-lecturers, evidenced by high exam scores</li>
+        </ul>
+        </div>
+    </div>
+    <div class="job-entry">
+        <div class="job-header">
+        <div class="job-title">Postdoctoral Researcher</div>
+        <div class="job-date">2018 – 2020</div>
+        </div>
+        <div class="job-place">University College London</div>
+        <div class="toggle-btn" onclick="toggleJob(this)">Show more ▼</div>
+        <div class="job-description">
+        <h4>Responsibilities:</h4>
+        <ul>
+            <li>Co-led an international trip to collect live animals, transport, care, complied to law and regulations</li>
+            <li>Conceived of experimental design, technical analyses and scientific interpretations</li>
+            <li>Managed data collections, archiving, collaborations and publications</li>
+            <li>Mentored PhDs and In2Science outreach, teaching wet-lab and computational analyses</li>
+        </ul>
+        <h4>Achievements:</h4>
+        <ul>
+            <li>Sequenced, assembled and published the first polyclad flatworm genome</li>
+            <li>Learnt single-cell wet-lab and bioinformatic analyses</li>
+            <li>Learnt phylogenetic techniques and methods testing</li>
+        </ul>
+        <h4>Projects:</h4>
+        <ul>
+            <li>Genome assembly (PacBio CCS) and annotation of a polyclad flatworm</li>
+            <li>Single-cell analysis of early development of spiral cleavage and larva in lophotrochozoans</li>
+            <li>Phylogenetic relationships of major animal clades</li>
+        </ul>
+        </div>
+    </div>
+    <div class="job-entry">
+        <div class="job-header">
+        <div class="job-title">Postdoctoral Researcher</div>
+        <div class="job-date">2017 – 2018</div>
+        </div>
+        <div class="job-place">Oxford Brookes University</div>
+        <div class="toggle-btn" onclick="toggleJob(this)">Show more ▼</div>
+        <div class="job-description">
+        <h4>Responsibilities:</h4>
+        <ul>
+            <li>Managed data collection, analyses, and archiving, and publications</li>
+            <li>Conceived experimental design, technical analyses and scientific interpretations</li>
+            <li>Mentored and supervised PhDs/undergraduates, teaching computational and wet-lab analyses</li>
+        </ul>
+        <h4>Achievements:</h4>
+        <ul>
+            <li>Established international collaborations, acquiring resources that expanded scientific perspective</li>
+            <li>First characterisation of all homeobox genes in spiders and support for whole genome duplication</li>
+        </ul>
+        <h4>Projects:</h4>
+        <ul>
+            <li>Investigated the homeobox gene repertoires in chelicerate whole genome duplications</li>
+            <li>Genome assembly (SPAdes) and variant calling (GATK) between strains of baculoviridae</li>
+        </ul>
+        </div>
+    </div>
+    </div>
+<!-- Skills -->
     <div id="skills" class="cv-section active">
       <h2>Skills</h2>
         <h3>Management:</h3>
@@ -79,142 +209,6 @@ permalink: /cv/
             <li>Species identification</li>
           </ul>
     </div>
-
-<!-- Experience -->
-<div id="experience" class="cv-section">
-  <h2>Experience</h2>
-  <div class="job-entry">
-    <div class="job-header">
-      <div class="job-title">Senior Bioinformatician and Business Developer</div>
-      <div class="job-date">2024 May – Oct</div>
-    </div>
-    <div class="job-place">Pragmatic Genomics</div>
-    <div class="toggle-btn" onclick="toggleJob(this)">Show more ▼</div>
-    <div class="job-description">
-      <h4>Responsibilities:</h4>
-      <ul>
-        <li>Developed genomics SaaS tools for cloud-based analyses</li>
-        <li>Conceptualised ideas, reviewed and tested using agile practices and GitHub version control</li>
-        <li>Established and managed high and low-touch sales funnels</li>
-        <li>Improved CRM (Hubspot), customer engagement, automation (Make), and feedback integration</li>
-        <li>Optimised website (HTML/CSS), improved design, SEO (Lighthouse), online resources (blogs, tutorials, functionality information), and branding</li>
-      </ul>
-      <h4>Achievements:</h4>
-      <ul>
-        <li>Improved front/back-end tool functionality, UX, security, and ensured biological and scientific rigour</li>
-        <li>Increased B2B and B2C sales over £50k pa via improved sales funnels and CRM methods</li>
-        <li>Overhauled website content, performance, and resources to attract and support customers</li>
-      </ul>
-    </div>
-  </div>
-
-  <div class="job-entry">
-    <div class="job-header">
-      <div class="job-title">Postdoctoral Researcher</div>
-      <div class="job-date">2020 – 2024</div>
-    </div>
-    <div class="job-place">Durham University</div>
-    <div class="toggle-btn" onclick="toggleJob(this)">Show more ▼</div>
-    <div class="job-description">
-      <h4>Responsibilities:</h4>
-      <ul>
-        <li>Co-led team coordination, international collaborations, resource and fund management</li>
-        <li>Conceived experimental design, technical analyses and scientific interpretations</li>
-        <li>Managed data collections, archiving, task designation, communications and publications</li>
-        <li>Mentored and supervised Postdocs/PhDs/undergraduates, teaching computational analyses</li>
-      </ul>
-      <h4>Achievements:</h4>
-      <ul>
-        <li>Discovered and published new insights of spider development at single-cell resolution</li>
-        <li>Assembling and annotating four new spider genomes using NGS long-read (PacBio HiFi/Iso-Seq) and short-read (Illumina DNA/RNA-Seq and Arima HiC) technologies</li>
-        <li>Developed novel bioinformatic approaches for studying genome synteny and evolution</li>
-      </ul>
-      <h4>Projects:</h4>
-      <ul>
-        <li>Single-cell RNA-Seq (SPLiTseq) transcriptomics analyses of spider development</li>
-        <li>Systematic identification of duplicate genes in chelicerate whole genome duplications</li>
-      </ul>
-    </div>
-  </div>
-
-  <div class="job-entry">
-    <div class="job-header">
-      <div class="job-title">Associate Lecturer</div>
-      <div class="job-date">2021 – 2023</div>
-    </div>
-    <div class="job-place">Oxford Brookes University</div>
-    <div class="toggle-btn" onclick="toggleJob(this)">Show more ▼</div>
-    <div class="job-description">
-      <h4>Responsibilities:</h4>
-      <ul>
-        <li>Design course material and examinations, in coordination with co-lecturers</li>
-        <li>Taught theoretical and bioinformatic practical sessions and mentoring undergraduate students</li>
-      </ul>
-      <h4>Achievements:</h4>
-      <ul>
-        <li>Received excellent feedback from students and co-lecturers, evidenced by high exam scores</li>
-      </ul>
-    </div>
-  </div>
-
-  <div class="job-entry">
-    <div class="job-header">
-      <div class="job-title">Postdoctoral Researcher</div>
-      <div class="job-date">2018 – 2020</div>
-    </div>
-    <div class="job-place">University College London</div>
-    <div class="toggle-btn" onclick="toggleJob(this)">Show more ▼</div>
-    <div class="job-description">
-      <h4>Responsibilities:</h4>
-      <ul>
-        <li>Co-led an international trip to collect live animals, transport, care, complied to law and regulations</li>
-        <li>Conceived of experimental design, technical analyses and scientific interpretations</li>
-        <li>Managed data collections, archiving, collaborations and publications</li>
-        <li>Mentored PhDs and In2Science outreach, teaching wet-lab and computational analyses</li>
-      </ul>
-      <h4>Achievements:</h4>
-      <ul>
-        <li>Sequenced, assembled and published the first polyclad flatworm genome</li>
-        <li>Learnt single-cell wet-lab and bioinformatic analyses</li>
-        <li>Learnt phylogenetic techniques and methods testing</li>
-      </ul>
-      <h4>Projects:</h4>
-      <ul>
-        <li>Genome assembly (PacBio CCS) and annotation of a polyclad flatworm</li>
-        <li>Single-cell analysis of early development of spiral cleavage and larva in lophotrochozoans</li>
-        <li>Phylogenetic relationships of major animal clades</li>
-      </ul>
-    </div>
-  </div>
-
-  <div class="job-entry">
-    <div class="job-header">
-      <div class="job-title">Postdoctoral Researcher</div>
-      <div class="job-date">2017 – 2018</div>
-    </div>
-    <div class="job-place">Oxford Brookes University</div>
-    <div class="toggle-btn" onclick="toggleJob(this)">Show more ▼</div>
-    <div class="job-description">
-      <h4>Responsibilities:</h4>
-      <ul>
-        <li>Managed data collection, analyses, and archiving, and publications</li>
-        <li>Conceived experimental design, technical analyses and scientific interpretations</li>
-        <li>Mentored and supervised PhDs/undergraduates, teaching computational and wet-lab analyses</li>
-      </ul>
-      <h4>Achievements:</h4>
-      <ul>
-        <li>Established international collaborations, acquiring resources that expanded scientific perspective</li>
-        <li>First characterisation of all homeobox genes in spiders and support for whole genome duplication</li>
-      </ul>
-      <h4>Projects:</h4>
-      <ul>
-        <li>Investigated the homeobox gene repertoires in chelicerate whole genome duplications</li>
-        <li>Genome assembly (SPAdes) and variant calling (GATK) between strains of baculoviridae</li>
-      </ul>
-    </div>
-  </div>
-
-</div>
 <!-- Education -->
     <div id="education" class="cv-section">
       <h2>Education</h2>
@@ -290,10 +284,11 @@ permalink: /cv/
     display: flex;
     flex-wrap: wrap;
     gap: 2rem;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
   }
 
   .cv-sidebar {
-    background-color: #e6f4ea;
+    background-color: #FFFFFF;
     padding: 1.5rem;
     border-radius: 1rem;
     width: 260px;
@@ -310,6 +305,7 @@ permalink: /cv/
   .cv-sidebar h2 {
     margin-bottom: 0.2rem;
     font-size: 1.4rem;
+    text-align: center;
   }
 
   .cv-sidebar p {
@@ -324,8 +320,8 @@ permalink: /cv/
     margin: 0.5rem 0;
     padding: 0.6rem 1rem;
     background: white;
-    border: 2px solid #2e7d32;
-    color: #2e7d32;
+    border: 2px solid #000000;
+    color: #000000;
     font-weight: bold;
     border-radius: 0.8rem;
     cursor: pointer;
@@ -334,7 +330,7 @@ permalink: /cv/
   }
 
   .cv-button:hover {
-    background-color: #cdecd1;
+    background-color: #ffcf5e;
   }
 
   .cv-content {
