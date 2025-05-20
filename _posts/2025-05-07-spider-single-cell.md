@@ -7,9 +7,6 @@ excerpt: Capturing new insights of spider development with single-cell RNA seque
 ---
 
 ## Background
-
-Under construction
-
 Spiders belong to the extremely morphologically diverse group of animals called arthropods. Comparisons of spider development to other organisms like centipedes, crustaceans, and insects, have informed us about the evolution of a variety of different things like segmentation, eye development, limb development, and much more. To deepen these insights, we used single-cell RNA sequencing to analyse three stages (7, 8.1 and 9.1) of spider development (fig 1A)(<a href="https://evodevojournal.biomedcentral.com/articles/10.1186/s13227-024-00224-4" target="_blank" rel="noopener noreferrer">Leite <i>et al</i> 2024</a>). During these three stages key developmental process happen, such as segmentation, Hox patterning, limb development and head patterning.
 
 ##  Methodology
