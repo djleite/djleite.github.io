@@ -21,7 +21,7 @@ Our adventure started in the Florida Keys, at the [Keys Marine Lab](https://www.
 
 The flatworms were collected into large salt-water tanks.
 
-![A close up of the Prostheceraeus crozieri anterior](/images/flatworm_closeup.webp)
+![A close up of the Prostheceraeus crozieri anterior](/images/flatworm-vid.webm)
 <p style="text-align:center;"><i>A close up of the head of</i> Prostheceraeus crozieri</p>
 
 ## Sequence and assembly
