@@ -87,7 +87,7 @@ permalink: /cv/
   <div class="job-entry">
     <div class="job-header">
       <div class="job-title">Senior Bioinformatician and Business Developer</div>
-      <div class="job-date">2024 May – 2024 Oct</div>
+      <div class="job-date">2024 May – Oct</div>
     </div>
     <div class="job-place">Pragmatic Genomics</div>
     <div class="toggle-btn" onclick="toggleJob(this)">Show more ▼</div>
@@ -109,185 +109,108 @@ permalink: /cv/
     </div>
   </div>
 
-## Postdoctoral Researcher – Durham University (2020 – 2024)
-
-### Responsibilities:
-- Co-led team coordination, international collaborations, resource and fund management
-- Conceived experimental design, technical analyses and scientific interpretations 
-- Managed data collections, archiving, task designation, communications and publications
-- Mentored and supervised Postdocs/PhDs/undergraduates, teaching computational analyses
-
-### Achievements:
-- Discovered and published new insights of spider development at single-cell resolution 
-- Assembling and annotating four new spider genomes using NGS long-read (PacBio HiFi/Iso-Seq) and short-read (Illumina DNA/RNA-Seq and Arima HiC) technologies
-- Developed novel bioinformatic approaches for studying genome synteny and evolution
-
-### Projects:
-- Single-cell RNA-Seq (SPLiTseq) transcriptomics analyses of spider development 
-- Systematic identification of duplicate genes in chelicerate whole genome duplications
-
-
   <div class="job-entry">
     <div class="job-header">
-      <div class="job-title">Senior Bioinformatician and Business Developer</div>
-      <div class="job-date">2024 May – 2024 Oct</div>
+      <div class="job-title">Postdoctoral Researcher</div>
+      <div class="job-date">2020 – 2024</div>
     </div>
-    <div class="job-place">Pragmatic Genomics</div>
+    <div class="job-place">Durham University</div>
     <div class="toggle-btn" onclick="toggleJob(this)">Show more ▼</div>
     <div class="job-description">
       <h4>Responsibilities:</h4>
       <ul>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
+        <li>Co-led team coordination, international collaborations, resource and fund management</li>
+        <li>Conceived experimental design, technical analyses and scientific interpretations</li>
+        <li>Managed data collections, archiving, task designation, communications and publications</li>
+        <li>Mentored and supervised Postdocs/PhDs/undergraduates, teaching computational analyses</li>
       </ul>
       <h4>Achievements:</h4>
       <ul>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
+        <li>Discovered and published new insights of spider development at single-cell resolution</li>
+        <li>Assembling and annotating four new spider genomes using NGS long-read (PacBio HiFi/Iso-Seq) and short-read (Illumina DNA/RNA-Seq and Arima HiC) technologies</li>
+        <li>Developed novel bioinformatic approaches for studying genome synteny and evolution</li>
       </ul>
       <h4>Projects:</h4>
       <ul>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
+        <li>Single-cell RNA-Seq (SPLiTseq) transcriptomics analyses of spider development</li>
+        <li>Systematic identification of duplicate genes in chelicerate whole genome duplications</li>
       </ul>
     </div>
   </div>
 
   <div class="job-entry">
     <div class="job-header">
-      <div class="job-title">Senior Bioinformatician and Business Developer</div>
-      <div class="job-date">2024 May – 2024 Oct</div>
+      <div class="job-title">Associate Lecturer</div>
+      <div class="job-date">2021 – 2023</div>
     </div>
-    <div class="job-place">Pragmatic Genomics</div>
+    <div class="job-place">Oxford Brookes University</div>
     <div class="toggle-btn" onclick="toggleJob(this)">Show more ▼</div>
     <div class="job-description">
       <h4>Responsibilities:</h4>
       <ul>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
+        <li>Design course material and examinations, in coordination with co-lecturers</li>
+        <li>Taught theoretical and bioinformatic practical sessions and mentoring undergraduate students</li>
       </ul>
       <h4>Achievements:</h4>
       <ul>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-      </ul>
-      <h4>Projects:</h4>
-      <ul>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
+        <li>Received excellent feedback from students and co-lecturers, evidenced by high exam scores</li>
       </ul>
     </div>
   </div>
 
   <div class="job-entry">
     <div class="job-header">
-      <div class="job-title">Senior Bioinformatician and Business Developer</div>
-      <div class="job-date">2024 May – 2024 Oct</div>
+      <div class="job-title">Postdoctoral Researcher</div>
+      <div class="job-date">2018 – 2020</div>
     </div>
-    <div class="job-place">Pragmatic Genomics</div>
+    <div class="job-place">University College London</div>
     <div class="toggle-btn" onclick="toggleJob(this)">Show more ▼</div>
     <div class="job-description">
       <h4>Responsibilities:</h4>
       <ul>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
+        <li>Co-led an international trip to collect live animals, transport, care, complied to law and regulations</li>
+        <li>Conceived of experimental design, technical analyses and scientific interpretations</li>
+        <li>Managed data collections, archiving, collaborations and publications</li>
+        <li>Mentored PhDs and In2Science outreach, teaching wet-lab and computational analyses</li>
       </ul>
       <h4>Achievements:</h4>
       <ul>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
+        <li>Sequenced, assembled and published the first polyclad flatworm genome</li>
+        <li>Learnt single-cell wet-lab and bioinformatic analyses</li>
+        <li>Learnt phylogenetic techniques and methods testing</li>
       </ul>
       <h4>Projects:</h4>
       <ul>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
+        <li>Genome assembly (PacBio CCS) and annotation of a polyclad flatworm</li>
+        <li>Single-cell analysis of early development of spiral cleavage and larva in lophotrochozoans</li>
+        <li>Phylogenetic relationships of major animal clades</li>
       </ul>
     </div>
   </div>
 
   <div class="job-entry">
     <div class="job-header">
-      <div class="job-title">Senior Bioinformatician and Business Developer</div>
-      <div class="job-date">2024 May – 2024 Oct</div>
+      <div class="job-title">Postdoctoral Researcher</div>
+      <div class="job-date">2017 – 2018</div>
     </div>
-    <div class="job-place">Pragmatic Genomics</div>
+    <div class="job-place">Oxford Brookes University</div>
     <div class="toggle-btn" onclick="toggleJob(this)">Show more ▼</div>
     <div class="job-description">
       <h4>Responsibilities:</h4>
       <ul>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
+        <li>Managed data collection, analyses, and archiving, and publications</li>
+        <li>Conceived experimental design, technical analyses and scientific interpretations</li>
+        <li>Mentored and supervised PhDs/undergraduates, teaching computational and wet-lab analyses</li>
       </ul>
       <h4>Achievements:</h4>
       <ul>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
+        <li>Established international collaborations, acquiring resources that expanded scientific perspective</li>
+        <li>First characterisation of all homeobox genes in spiders and support for whole genome duplication</li>
       </ul>
       <h4>Projects:</h4>
       <ul>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-      </ul>
-    </div>
-  </div>
-
-  <div class="job-entry">
-    <div class="job-header">
-      <div class="job-title">Senior Bioinformatician and Business Developer</div>
-      <div class="job-date">2024 May – 2024 Oct</div>
-    </div>
-    <div class="job-place">Pragmatic Genomics</div>
-    <div class="toggle-btn" onclick="toggleJob(this)">Show more ▼</div>
-    <div class="job-description">
-      <h4>Responsibilities:</h4>
-      <ul>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-      </ul>
-      <h4>Achievements:</h4>
-      <ul>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-      </ul>
-      <h4>Projects:</h4>
-      <ul>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
+        <li>Investigated the homeobox gene repertoires in chelicerate whole genome duplications</li>
+        <li>Genome assembly (SPAdes) and variant calling (GATK) between strains of baculoviridae</li>
       </ul>
     </div>
   </div>
@@ -298,25 +221,67 @@ permalink: /cv/
       <h2>Education</h2>
       <div class="job-entry expanded">
         <div class="job-header">
-          <div class="job-title">PhD in Bioinformatics</div>
-          <div class="job-date">2015 – 2019</div>
+          <div class="job-title">Ph.D. in EvoDevo Genomics</div>
+          <div class="job-date">2013 – 2017</div>
         </div>
-        <div class="job-place">University of Cambridge</div>
+        <div class="job-place">Oxford Brookes University</div>
         <div class="job-description">
           <ul>
-            <li>Thesis on computational models of viral evolution</li>
-            <li>Published in top-tier journals</li>
+            <li>Thesis “Duplication and divergence of homeobox genes and microRNAs in Chelicerata”</li>
+            <li>Published three first-author papers</li>
+            <li>Received accolades for presentations and posters</li>
+          </ul>
+        </div>
+      </div>
+      <div class="job-entry expanded">
+        <div class="job-header">
+          <div class="job-title">BSc in Biology</div>
+          <div class="job-date">2010 – 2013</div>
+        </div>
+        <div class="job-place">Oxford Brookes University</div>
+        <div class="job-description">
+          <ul>
+            <li>1st Class Honours</li>
+            <li>Evolutionary</li>
+            <li>Developmental</li>
+            <li>Molecular</li>
+            <li>Cellular</li>
+            <li>Plant</li>
+            <li>Conservation</li>
           </ul>
         </div>
       </div>
     </div>
-    <!-- Other -->
+<!-- Other -->
     <div id="other" class="cv-section">
       <h2>Other</h2>
-      <ul>
-        <li>Public speaker on open science</li>
-        <li>Contributor to open-source genomics tools</li>
-      </ul>
+        <h3>Journal Reviewer:</h3>
+          <ul>
+            <li>BMC Genomics</li>
+            <li>BMC Biology</li>
+            <li>Development Genes and Evolution</li>
+            <li>JEZ Part B: Molecular and Developmental Evolution</li>
+            <li>Nucleic Acids Research</li>
+            <li>Proceedings of the Royal Society London B</li>
+          </ul>
+        <h3>Key conference presentations:</h3>
+          <ul>
+            <li>Keynote at DZG, Kassel, Germany (2023)</li>
+            <li>Invited speaker at Spider Workshop, Durham, UK (2022)</li>
+            <li>Speaker at Darwin Tree of Life, UK (2021)</li>
+            <li>Speaker at SpiderWeb, Göttingen, Germany (2017)</li>
+            <li>Speaker at SpiderWeb, Jena, Germany (2014)</li>
+          </ul>
+        <h3>Teaching and outreach:</h3>
+          <ul>
+            <li>Associate lecturer (2021 – 2023)</li>
+            <li>Supervisor of undergraduates, masters, and Ph.D. students (2013 – 2024)</li>
+            <li>Outreach with In2Science (2019) and primary schools (2014 – 2017)</li>
+          </ul>
+        <h3>Gatsby Plant Summer School (2011):</h3>
+          <ul>
+            <li>Experience and training in research ideas and solutions in plant science</li>
+          </ul>
     </div>
   </div>
 </div>
