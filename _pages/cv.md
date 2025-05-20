@@ -1,128 +1,224 @@
 ---
 layout: page
-title: CV
+title: Curriculum Vitae
 permalink: /cv/
 ---
-<!-- PDF Download Button -->
-<div style="text-align: right; margin-bottom: 1rem;">
-  <a href="https://github.com/djleite/djleite.github.io/raw/main/assets/cv/Leite_CV.pdf" class="btn" download>
-    📄 Download PDF
-  </a>
-</div>
+<div class="cv-container">
+  <!-- Sidebar -->
+  <aside class="cv-sidebar">
+    <img src="{{ '/images/DJL_ID_photo.webp' | relative_url }}" alt="DJ Leite">
+    <h2>Dr. DJ Leite</h2>
+    <p>Research Bioinformatician</p>
 
-<!-- Side Navigation -->
-<div style="display: flex; gap: 2rem;">
-  <aside style="min-width: 200px;">
-    <ul id="cvTabs" style="list-style: none; padding-left: 0;">
-      <li><button onclick="showTab('skills')">Skills</button></li>
-      <li><button onclick="showTab('experience')">Experience</button></li>
-      <li><button onclick="showTab('education')">Education</button></li>
-      <li><button onclick="showTab('other')">Other</button></li>
-    </ul>
+    <a class="cv-button" onclick="showSection('skills')">Skills</a>
+    <a class="cv-button" onclick="showSection('experience')">Experience</a>
+    <a class="cv-button" onclick="showSection('education')">Education</a>
+    <a class="cv-button" onclick="showSection('other')">Other</a>
+
+    <a class="cv-button" href="https://github.com/djleite/djleite.github.io/raw/main/files/DJ_Leite_CV.pdf" target="_blank">⬇ Download PDF</a>
   </aside>
 
-  <!-- CV Content Panels -->
-  <section style="flex: 1;">
-    <div id="skills" class="cv-tab">
+  <!-- Main Content -->
+  <div class="cv-content">
+    <!-- Skills -->
+    <div id="skills" class="cv-section active">
       <h2>Skills</h2>
       <ul>
-        <li>Python, R, Git</li>
-        <li>Data Analysis, Bioinformatics</li>
-        <li>Machine Learning</li>
+        <li>Python, R, Bash</li>
+        <li>Genomic data analysis</li>
+        <li>Workflow automation</li>
+        <li>Linux, HPC clusters, Docker</li>
       </ul>
     </div>
 
-    <div id="experience" class="cv-tab" style="display:none;">
+    <!-- Experience -->
+    <div id="experience" class="cv-section">
       <h2>Experience</h2>
 
-      <!-- Expandable Job -->
-      <details>
-        <summary>
-          <strong>Postdoctoral Researcher</strong> – University of Example (2021–Present)
-        </summary>
-        <p>Conducted research on comparative genomics and developed custom pipelines for orthology analysis.</p>
-      </details>
+      <div class="job-entry">
+        <div class="job-header">
+          <div class="job-title">Senior Bioinformatician</div>
+          <div class="job-date">2022 – Present</div>
+        </div>
+        <div class="job-place">University of Oxford</div>
+        <div class="toggle-btn" onclick="toggleJob(this)">Show more ▼</div>
+        <div class="job-description">
+          <ul>
+            <li>Led bioinformatics pipelines for pathogen surveillance</li>
+            <li>Developed workflows for high-throughput genomics</li>
+          </ul>
+        </div>
+      </div>
 
-      <details>
-        <summary>
-          <strong>Bioinformatics Consultant</strong> – XYZ BioTech (2019–2021)
-        </summary>
-        <p>Provided consulting services for genome annotation and metagenomic data processing.</p>
-      </details>
+      <div class="job-entry">
+        <div class="job-header">
+          <div class="job-title">Postdoctoral Researcher</div>
+          <div class="job-date">2019 – 2022</div>
+        </div>
+        <div class="job-place">University College London</div>
+        <div class="toggle-btn" onclick="toggleJob(this)">Show more ▼</div>
+        <div class="job-description">
+          <ul>
+            <li>Designed evolutionary models of RNA virus mutation</li>
+            <li>Maintained reproducible research codebase</li>
+          </ul>
+        </div>
+      </div>
     </div>
 
-    <div id="education" class="cv-tab" style="display:none;">
+    <!-- Education -->
+    <div id="education" class="cv-section">
       <h2>Education</h2>
-      <div>
-        <strong>PhD in Evolutionary Biology</strong><br>
-        University of Science (2015–2019)
-      </div>
-      <div style="margin-top: 1rem;">
-        <strong>BSc in Genetics</strong><br>
-        University of Life (2011–2014)
+      <div class="job-entry expanded">
+        <div class="job-header">
+          <div class="job-title">PhD in Bioinformatics</div>
+          <div class="job-date">2015 – 2019</div>
+        </div>
+        <div class="job-place">University of Cambridge</div>
+        <div class="job-description">
+          <ul>
+            <li>Thesis on computational models of viral evolution</li>
+            <li>Published in top-tier journals</li>
+          </ul>
+        </div>
       </div>
     </div>
 
-    <div id="other" class="cv-tab" style="display:none;">
+    <!-- Other -->
+    <div id="other" class="cv-section">
       <h2>Other</h2>
-      <p>Volunteering, conference presentations, etc.</p>
+      <ul>
+        <li>Public speaker on open science</li>
+        <li>Contributor to open-source genomics tools</li>
+      </ul>
     </div>
-  </section>
+  </div>
 </div>
 
 <!-- Styles -->
 <style>
-  #cvTabs li {
+  .cv-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+  }
+
+  .cv-sidebar {
+    background-color: #e6f4ea;
+    padding: 1.5rem;
+    border-radius: 1rem;
+    width: 260px;
+    text-align: center;
+    flex-shrink: 0;
+  }
+
+  .cv-sidebar img {
+    width: 100%;
+    border-radius: 1rem;
+    margin-bottom: 1rem;
+  }
+
+  .cv-sidebar h2 {
+    margin-bottom: 0.2rem;
+    font-size: 1.4rem;
+  }
+
+  .cv-sidebar p {
+    font-size: 1rem;
+    color: #4a4a4a;
+    margin-bottom: 1rem;
+  }
+
+  .cv-button {
+    display: block;
+    width: 100%;
+    margin: 0.5rem 0;
+    padding: 0.6rem 1rem;
+    background: white;
+    border: 2px solid #2e7d32;
+    color: #2e7d32;
+    font-weight: bold;
+    border-radius: 0.8rem;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+  }
+
+  .cv-button:hover {
+    background-color: #cdecd1;
+  }
+
+  .cv-content {
+    flex: 1;
+    min-width: 300px;
+  }
+
+  .cv-section {
+    display: none;
+    margin-bottom: 2rem;
+  }
+
+  .cv-section.active {
+    display: block;
+  }
+
+  .job-entry {
+    margin-bottom: 1.5rem;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 1rem;
+  }
+
+  .job-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    font-weight: bold;
+  }
+
+  .job-title {
+    font-size: 1.1rem;
+  }
+
+  .job-place {
+    font-style: italic;
+    color: #555;
     margin-bottom: 0.5rem;
   }
-  #cvTabs button {
-    width: 100%;
-    padding: 0.5rem;
-    background: #eee;
-    border: none;
+
+  .job-description {
+    display: none;
+    padding-left: 0.5rem;
+  }
+
+  .job-entry.expanded .job-description {
+    display: block;
+  }
+
+  .job-entry .toggle-btn {
+    color: #2e7d32;
+    font-size: 0.9rem;
     cursor: pointer;
-    text-align: left;
-    font-weight: bold;
-  }
-  #cvTabs button:hover {
-    background: #ddd;
+    margin-top: 0.3rem;
   }
 
-  details summary {
-    cursor: pointer;
-    font-size: 1.1rem;
-    margin-bottom: 0.25rem;
-  }
-
-  details p {
-    margin: 0.5rem 0 1rem 1rem;
-    line-height: 1.5;
-  }
-
-  .btn {
-    background: #0066cc;
-    color: white;
-    padding: 0.6rem 1rem;
-    border-radius: 4px;
-    text-decoration: none;
-    font-weight: bold;
-  }
 </style>
+
+
 
 <!-- JS for Tab Switching -->
 <script>
-  function showTab(tabId) {
-    const tabs = document.querySelectorAll(".cv-tab");
-    tabs.forEach(tab => tab.style.display = "none");
-
-    const selected = document.getElementById(tabId);
-    if (selected) selected.style.display = "block";
+  function showSection(id) {
+    document.querySelectorAll('.cv-section').forEach(section => {
+      section.classList.remove('active');
+    });
+    document.getElementById(id).classList.add('active');
   }
 
-  // Optionally show first tab by default
-  document.addEventListener("DOMContentLoaded", () => {
-    showTab('skills');
-  });
+  function toggleJob(element) {
+    const entry = element.closest('.job-entry');
+    entry.classList.toggle('expanded');
+    element.textContent = entry.classList.contains('expanded') ? "Show less ▲" : "Show more ▼";
+  }
 </script>
 
 
