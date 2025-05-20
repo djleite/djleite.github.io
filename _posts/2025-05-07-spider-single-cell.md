@@ -35,5 +35,5 @@ The first step in single-cell analysis was the dissociation of multicellular emb
 4. **Reevaluation of 'Extra-Embryonic' Cells**:
    Our data suggest that cells previously classified as 'extra-embryonic' may have more significant roles in embryonic development than previously thought. These include the earlier differentiation of the hematopoietic lineage, as well as remarkable different cellular division tempo of endodermal cells of the gut.
 
-## Evolutionary Implications
+## Impact
 By providing a high-resolution cellular view of spider embryogenesis, our study offered new insights into the evolution of developmental mechanisms in arthropods. This single-cell atlas serves as a foundational resource for future research into arachnid development and evolution, enabling comparative studies across species and facilitating the identification of conserved and divergent developmental pathways.
