@@ -3,6 +3,129 @@ layout: page
 title: CV
 permalink: /cv/
 ---
+<!-- PDF Download Button -->
+<div style="text-align: right; margin-bottom: 1rem;">
+  <a href="https://github.com/djleite/djleite.github.io/raw/main/assets/cv/Leite_CV.pdf" class="btn" download>
+    📄 Download PDF
+  </a>
+</div>
+
+<!-- Side Navigation -->
+<div style="display: flex; gap: 2rem;">
+  <aside style="min-width: 200px;">
+    <ul id="cvTabs" style="list-style: none; padding-left: 0;">
+      <li><button onclick="showTab('skills')">Skills</button></li>
+      <li><button onclick="showTab('experience')">Experience</button></li>
+      <li><button onclick="showTab('education')">Education</button></li>
+      <li><button onclick="showTab('other')">Other</button></li>
+    </ul>
+  </aside>
+
+  <!-- CV Content Panels -->
+  <section style="flex: 1;">
+    <div id="skills" class="cv-tab">
+      <h2>Skills</h2>
+      <ul>
+        <li>Python, R, Git</li>
+        <li>Data Analysis, Bioinformatics</li>
+        <li>Machine Learning</li>
+      </ul>
+    </div>
+
+    <div id="experience" class="cv-tab" style="display:none;">
+      <h2>Experience</h2>
+
+      <!-- Expandable Job -->
+      <details>
+        <summary>
+          <strong>Postdoctoral Researcher</strong> – University of Example (2021–Present)
+        </summary>
+        <p>Conducted research on comparative genomics and developed custom pipelines for orthology analysis.</p>
+      </details>
+
+      <details>
+        <summary>
+          <strong>Bioinformatics Consultant</strong> – XYZ BioTech (2019–2021)
+        </summary>
+        <p>Provided consulting services for genome annotation and metagenomic data processing.</p>
+      </details>
+    </div>
+
+    <div id="education" class="cv-tab" style="display:none;">
+      <h2>Education</h2>
+      <div>
+        <strong>PhD in Evolutionary Biology</strong><br>
+        University of Science (2015–2019)
+      </div>
+      <div style="margin-top: 1rem;">
+        <strong>BSc in Genetics</strong><br>
+        University of Life (2011–2014)
+      </div>
+    </div>
+
+    <div id="other" class="cv-tab" style="display:none;">
+      <h2>Other</h2>
+      <p>Volunteering, conference presentations, etc.</p>
+    </div>
+  </section>
+</div>
+
+<!-- Styles -->
+<style>
+  #cvTabs li {
+    margin-bottom: 0.5rem;
+  }
+  #cvTabs button {
+    width: 100%;
+    padding: 0.5rem;
+    background: #eee;
+    border: none;
+    cursor: pointer;
+    text-align: left;
+    font-weight: bold;
+  }
+  #cvTabs button:hover {
+    background: #ddd;
+  }
+
+  details summary {
+    cursor: pointer;
+    font-size: 1.1rem;
+    margin-bottom: 0.25rem;
+  }
+
+  details p {
+    margin: 0.5rem 0 1rem 1rem;
+    line-height: 1.5;
+  }
+
+  .btn {
+    background: #0066cc;
+    color: white;
+    padding: 0.6rem 1rem;
+    border-radius: 4px;
+    text-decoration: none;
+    font-weight: bold;
+  }
+</style>
+
+<!-- JS for Tab Switching -->
+<script>
+  function showTab(tabId) {
+    const tabs = document.querySelectorAll(".cv-tab");
+    tabs.forEach(tab => tab.style.display = "none");
+
+    const selected = document.getElementById(tabId);
+    if (selected) selected.style.display = "block";
+  }
+
+  // Optionally show first tab by default
+  document.addEventListener("DOMContentLoaded", () => {
+    showTab('skills');
+  });
+</script>
+
+
 
 [Skills](/cv#skills)
 
