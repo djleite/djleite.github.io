@@ -1,0 +1,105 @@
+  .cv-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+  }
+
+  .cv-sidebar {
+    background-color: #f0f9fc;
+    padding: 1.5rem;
+    border-radius: 1rem;
+    width: 260px;
+    text-align: center;
+    flex-shrink: 0;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+  }
+
+  .cv-sidebar img {
+    width: 100%;
+    border-radius: 1rem;
+    margin-bottom: 1rem;
+  }
+
+  .cv-sidebar h2 {
+    margin-bottom: 0.2rem;
+    font-size: 1.4rem;
+    text-align: center;
+  }
+
+  .cv-sidebar p {
+    font-size: 1rem;
+    color: #000000;
+    margin-bottom: 1rem;
+  }
+
+  .cv-button {
+    display: block;
+    width: 100%;
+    margin: 0.5rem 0;
+    padding: 0.6rem 1rem;
+    background: white;
+    border: 1px solid #0082ad;
+    color: #000000;
+    font-weight: bold;
+    border-radius: 0.8rem;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+  }
+
+  .cv-button:hover {
+    background-color: #b8edff;
+  }
+
+  .cv-content {
+    flex: 1;
+    min-width: 300px;
+  }
+
+  .cv-section {
+    display: none;
+    margin-bottom: 2rem;
+  }
+
+  .cv-section.active {
+    display: block;
+  }
+
+  .job-entry {
+    margin-bottom: 1.5rem;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 1rem;
+  }
+
+  .job-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    font-weight: bold;
+  }
+
+  .job-title {
+    font-size: 1.1rem;
+  }
+
+  .job-place {
+    font-style: italic;
+    color: #000000;
+    margin-bottom: 0.5rem;
+  }
+
+  .job-description {
+    display: none;
+    padding-left: 0.5rem;
+  }
+
+  .job-entry.expanded .job-description {
+    display: block;
+  }
+
+  .job-entry .toggle-btn {
+    color: #0082ad;
+    font-size: 0.9rem;
+    cursor: pointer;
+    margin-top: 0.3rem;
+  }
