@@ -19,11 +19,11 @@ permalink: /cv/
   <!-- Main Content -->
   <div class="cv-content">
     <!-- Experience -->
-    <div id="experience" class="cv-section">
+    <div id="experience" class="cv-section active">
     <h2>Experience</h2>
     <div class="job-entry">
         <div class="job-header">
-        <div class="job-title">Senior Bioinformatician and Business Developer</div>
+        <div class="job-title">Senior Bioinformatician and<br> Business Developer</div>
         <div class="job-date">2024 May – Oct</div>
         </div>
         <div class="job-place">Pragmatic Genomics</div>
@@ -149,7 +149,7 @@ permalink: /cv/
     </div>
     </div>
 <!-- Skills -->
-    <div id="skills" class="cv-section active">
+    <div id="skills" class="cv-section">
       <h2>Skills</h2>
         <h3>Management:</h3>
           <ul>
@@ -288,7 +288,7 @@ permalink: /cv/
   }
 
   .cv-sidebar {
-    background-color: #FFFFFF;
+    background-color: #fafafa;
     padding: 1.5rem;
     border-radius: 1rem;
     width: 260px;
