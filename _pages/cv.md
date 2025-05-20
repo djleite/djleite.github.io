@@ -287,7 +287,7 @@ permalink: /cv/
   }
 
   .cv-sidebar {
-    background-color: #fab616;
+    background-color: #fce8b8;
     padding: 1.5rem;
     border-radius: 1rem;
     width: 260px;
