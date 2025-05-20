@@ -13,7 +13,7 @@ permalink: /cv/
     <a class="cv-button" onclick="showSection('experience')">Experience</a>
     <a class="cv-button" onclick="showSection('education')">Education</a>
     <a class="cv-button" onclick="showSection('other')">Other</a>
-    <a class="cv-button" href="https://github.com/djleite/djleite.github.io/raw/main/files/DJ_Leite_CV.pdf" target="_blank">Download CV</a>
+    <a class="cv-button" href="/assets/cv/DJ_Leite_CV.pdf" target="_blank">Download CV</a>
   </aside>
 
   <!-- Main Content -->
