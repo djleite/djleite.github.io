@@ -1,5 +1,5 @@
 ---
-title: Spider posterior segmentation
+title: Genetic regulation of spider segmentation
 date: 2025-05-01
 tags: []
 image: /images/spider-seg.webp
