@@ -7,10 +7,10 @@ permalink: /cv/
   <!-- Sidebar -->
   <aside class="cv-sidebar" style="text-align: center;">
     <img src="{{ '/images/DJL_ID_photo.webp' | relative_url }}" alt="DJ Leite">
-    <h2>Dr. Daniel J. Leite</h2>
+    <h2>Daniel J. Leite</h2>
     <p>Research Bioinformatician</p>
-    <a class="cv-button" onclick="showSection('skills')">Skills</a>
     <a class="cv-button" onclick="showSection('experience')">Experience</a>
+    <a class="cv-button" onclick="showSection('skills')">Skills</a>
     <a class="cv-button" onclick="showSection('education')">Education</a>
     <a class="cv-button" onclick="showSection('other')">Other</a>
     <a class="cv-button" href="/assets/cv/DJ_Leite_CV.pdf" target="_blank">Download CV</a>
@@ -289,7 +289,7 @@ permalink: /cv/
   .cv-container {
     display: flex;
     flex-wrap: wrap;
-    gap: 3rem;
+    gap: 2rem;
   }
 
   .cv-sidebar {
