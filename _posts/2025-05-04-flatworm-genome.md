@@ -13,7 +13,7 @@ Lophotrochozoans are a diverse group of organisms that display a variety of inte
 Our adventure started in the Florida Keys, at the [Keys Marine Lab](https://www.fio.usf.edu/keys-marine-lab/). Renting kayaks, we surveyed the local mangroves, looking for the ascidians, where the flatworms congregated. 
 
 ![Looking out from the Keys Marine Lab, Florida, USA](/images/keys.webp)
-<p style="ext-align:left; font-size: 0.85rem; line-height: 1.2;"><b>Figure 1: Looking out from the Keys Marine Lab, Florida, USA.</b> The Keys are a beautiful stretch of islands, with shallow waters around. Islands are protected by mangroves along their shores.</p>
+<p style="ext-align: justify; font-size: 0.85rem; line-height: 1.2;"><b>Figure 1: Looking out from the Keys Marine Lab, Florida, USA.</b> The Keys are a beautiful stretch of islands, with shallow waters around. Islands are protected by mangroves along their shores.</p>
 
 The flatworms were collected into large salt-water tanks (fig 2). Within a few days, they were already laying hundreds of fertilised eggs. They were kept here before transportation back to the UK.
 
@@ -21,7 +21,7 @@ The flatworms were collected into large salt-water tanks (fig 2). Within a few d
   <source src="{{ '/images/flatworm-vid.webm' | relative_url }}" type="video/webm">
   Flatworms in a tank on ascidians.
 </video>
-<p style="ext-align:left; font-size: 0.85rem; line-height: 1.2;"><b>Figure 2: Two <i>Prostheceraeus crozieri</i> moving over ascidians in a tank.</b> The flatworm on top is attempting to mate with the one below. It does this by piercing the body and injecting sperm.</p>
+<p style="ext-align: justify; font-size: 0.85rem; line-height: 1.2;"><b>Figure 2: Two <i>Prostheceraeus crozieri</i> moving over ascidians in a tank.</b> The flatworm on top is attempting to mate with the one below. It does this by piercing the body and injecting sperm.</p>
 
 ## Sequencing and assembly
 For genome sequencing and assembly, high molecular weight DNA was extracted from one animal and sequenced using long-read PacBio (<a href="https://academic.oup.com/gbe/article/14/9/evac133/6678951" target="_blank" rel="noopener noreferrer">Leite <i>et al</i> 2022</a>). These long-reads were assembled, resulting in a 2.07 gigabase (Gb) assembly. Notably, the genome was highly repetitive, with repetitive elements constituting approximately 67.9%. A total of 43,325 genes were annotated, and had a Benchmarking Universal Single-Copy Orthologs (BUSCO) completeness score of 89.7%, indicating a relatively high-quality assembly compared with other flatworms. Furthermore, compared to other free-living flatworms, <i>P. crozieri</i> exhibits considerably larger introns. The abundance of transposable elements and repetitive sequences likely contributes to the expanded genome size and intron length.

@@ -9,19 +9,10 @@ layout: default
   </div>
 
   <h1>{{ page.title }}</h1>
-<!--
-  <div class="post-tags">
-    {% assign categories = post.categories | default: page.categories %}
-    {% for category in categories %}
-      <a href="{{ site.baseurl }}/categories/#{{ category | slugize }}">{{ category }}</a>
-      {% unless forloop.last %}&nbsp;{% endunless %}
-    {% endfor %}
-  </div>
--->
+
   <div class="entry" style="text-align: justify;">
     {{ content }}
   </div>
-
 
   <!-- 🔙 Back link at bottom -->
   <div style="margin-top: 2rem;">
