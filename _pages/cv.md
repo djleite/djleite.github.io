@@ -8,7 +8,7 @@ permalink: /cv/
   <aside class="cv-sidebar" style="text-align: center;">
     <!-- <img src="{{ '/images/DJL_ID_photo.webp' | relative_url }}" alt="DJ Leite"> -->
     <h2>Dr. Daniel J. Leite</h2>
-    <p>Research Bioinformatician</p>
+    <p>Research Biologist<br>and Bioinformatician</p>
     <a class="cv-button" onclick="showSection('experience')">Experience</a>
     <a class="cv-button" onclick="showSection('skills')">Skills</a>
     <a class="cv-button" onclick="showSection('education')">Education</a>
