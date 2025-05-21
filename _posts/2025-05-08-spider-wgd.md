@@ -14,10 +14,10 @@ Whole genome duplication (WGD) contributes large additions of genetic material t
 
 ## Key Findings
 
-### Genomes of spiders and scorpions
+### Genomes of Spiders and Scorpions
 Our analysis of some of the first spider and scorpion genomes (<a href="https://bmcbiol.biomedcentral.com/articles/10.1186/s12915-017-0399-x" target="_blank" rel="noopener noreferrer">Schwager <i>et al</i> 2017</a>) revealed evidence of WGD. The evidence included elevated duplication levels of BUSCO genes, duplication of many developmental genes (e.g. [homeobox genes](/spider-wgd#homeobox-genes) and [Sox genes](/spider-wgd#sox-genes)), conservation of synteny for both genomic scaffolds and gene clusters, and phylogenetic signatures from gene tree topologies.
 
-### Homeobox genes
+### Homeobox Genes
 One of the hallmarks of WGD in animal lineages are the presence of duplicate Hox clusters. In the <i>P. tepidariorum</i> and <i>C. sculpturatus</i> genomes, we identified almost intact duplicate Hox clusters (<a href="https://bmcbiol.biomedcentral.com/articles/10.1186/s12915-017-0399-x" target="_blank" rel="noopener noreferrer">Schwager <i>et al</i> 2017</a>).
 
 Phylogenetic surveys of genomic and transcriptomic resources across arthropods systematically identified homeobox gene duplication (<a href="https://academic.oup.com/mbe/article/35/9/2240/5040134" target="_blank" rel="noopener noreferrer">Leite  <i>et al</i> 2018</a>). This analysis captured a clear signal that approximately 50% of homeobox gene families were duplicated in arachnopulmonates, with conservation of homeobox family duplication across arachnopulmonate species.
@@ -30,7 +30,7 @@ Surveys of homeobox genes duplication have been extended as genomic resources ha
 ![Spider WGD synteny](/images/spider-wgd-full.webp)
 <p style="text-align: justify; font-size: 0.85rem; line-height: 1.2;"><b>Figure 3: Syntenic relationships between spider genomes.</b> Homeobox cluster rearrangement coincide which genomic rearrangements.</p>
 
-### Sox genes
+### Sox Genes
 Sox genes, like homeobox genes, are important transcription factors that instruct many aspects of development (<a href="https://elifesciences.org/articles/37567" target="_blank" rel="noopener noreferrer">Paese <i>et al</i> 2018a</a>; <a href="https://bmcecolevol.biomedcentral.com/articles/10.1186/s12862-018-1337-4" target="_blank" rel="noopener noreferrer">Paese <i>et al</i> 2018b</a>). We phylogenetically identified Sox genes in arthropods and similarly found spiders to contain more Sox genes compared with other arthropods surveyed.
 
 ![Spider Sox genes](/images/spider-sox.webp)
