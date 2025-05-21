@@ -9,7 +9,14 @@ excerpt: Impact of genome evolution in chelicerate lineages with whole genome du
 ## Background
 Whole genome duplication (WGD) contributes large additions of genetic material that impacts genome evolution. The evolution of additional coding and non-coding elements can alter the regulation of developmental processes, resulting in phenotypic change and diversification. Analyses of genomic and transcriptomic data has revealed that the arthropod subphylum of Chelicerata contains multiple WGDs. This includes a single WGD in the ancestor of arachnopulmonates (spiders, scorpions, and their relatives), and independently three WGDs in the lineage of horseshoe crabs ([fig 1](#fig1)).
 
+
 ![Chelicerate phylogeny](/images/chelicerate-phy.webp)
+
+
+
+<p id="fig1">
+<img src="/images/chelicerate-phy.webp" alt="Chelicerate phylogeny" style="max-width: 100%;">
+</p>
 <p id="fig1" style="text-align: justify; font-size: 0.85rem; line-height: 1.2;"><b>Figure 1: The arthropod phylogeny.</b> Representatives of chelicerates, including spiders (<i>P. tepidariorum</i>, <i>S. mimosarum</i>, and <i>A. geniculata</i>) and scorpions (<i>C. sculpturatus</i> and <i>M. martensii</i>), a tick (<i>I. scapularis</i>), a mite (<i>T. urticae</i>), and a horseshoe crab (<i>L. polyphemus</i>), as well as representatives of Myriapoda (<i>S. maritima</i>), Crustacea (<i>D. pulex</i>), and Insecta (<i>D. melanogaster</i> and <i>T. castaneum</i>).</p>
 
 ## Key Findings
