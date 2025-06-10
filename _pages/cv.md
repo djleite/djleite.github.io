@@ -20,7 +20,7 @@ permalink: /cv/
   <div class="cv-content">
     <p>Inquisitive analytical scientific researcher, experienced in genomics, phylogenomics, evolutionary and developmental biology. Adept at integrating bioinformatics and wet-lab approaches to gain multifaceted perspectives. Proven track-record of leveraging modern experimental techniques and international collaborations to produce high-impact peer-reviewed publications. Excels in communicating complex concepts effectively. Seeking to apply adaptability and experience in advanced and impactful research.</p>
     <!-- Experience -->
-    <div id="experience" class="cv-section active">
+    <div id="experience" class="cv-section">
     <h2>Experience</h2>
     <div class="job-entry">
         <div class="job-header">
@@ -150,7 +150,7 @@ permalink: /cv/
     </div>
     </div>
 <!-- Skills -->
-    <div id="skills" class="cv-section active">
+    <div id="skills" class="cv-section">
       <h2>Skills</h2>
         <h3>Management:</h3>
           <ul>
@@ -211,7 +211,7 @@ permalink: /cv/
           </ul>
     </div>
 <!-- Education -->
-    <div id="education" class="cv-section active">
+    <div id="education" class="cv-section">
       <h2>Education</h2>
       <div class="job-entry expanded">
         <div class="job-header">
@@ -246,7 +246,7 @@ permalink: /cv/
       </div>
     </div>
 <!-- Other -->
-    <div id="other" class="cv-section active">
+    <div id="other" class="cv-section">
       <h2>Other</h2>
         <h3>Journal Reviewer:</h3>
           <ul>
@@ -280,7 +280,25 @@ permalink: /cv/
 </div>
 
 
+<!-- JS for Smooth Scroll to Section -->
+<script>
+  function showSection(id) {
+    const section = document.getElementById(id);
+    if (section) {
+      section.scrollIntoView({ behavior: 'smooth' });
+    }
+  }
+
+  function toggleJob(element) {
+    const entry = element.closest('.job-entry');
+    entry.classList.toggle('expanded');
+    element.textContent = entry.classList.contains('expanded') ? "Show less ▲" : "Show more ▼";
+  }
+</script>
+
+
 <!-- JS for Tab Switching -->
+<!--
 <script>
   function showSection(id) {
     document.querySelectorAll('.cv-section').forEach(section => {
@@ -294,3 +312,4 @@ permalink: /cv/
     element.textContent = entry.classList.contains('expanded') ? "Show less ▲" : "Show more ▼";
   }
 </script>
+-->
