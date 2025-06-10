@@ -3,19 +3,19 @@ layout: page
 title: Curriculum Vitae
 permalink: /cv/
 ---
-<div class="cv-container">
-  <!-- Sidebar -->
-  <aside class="cv-sidebar" style="text-align: center;">
-    <!-- <img src="{{ '/images/DJL_ID_photo.webp' | relative_url }}" alt="DJ Leite"> -->
-    <h2>Dr. Daniel<br>J. Leite</h2>
-    <p>Research Biologist<br>and Bioinformatician</p>
-    <a class="cv-button" onclick="showSection('experience')">Experience</a>
-    <a class="cv-button" onclick="showSection('skills')">Skills</a>
-    <a class="cv-button" onclick="showSection('education')">Education</a>
-    <a class="cv-button" onclick="showSection('other')">Other</a>
-    <a class="cv-button" href="/assets/cv/DJ_Leite_CV.pdf" target="_blank">Download CV</a>
-  </aside>
+<!-- Sidebar -->
+<aside class="cv-sidebar" style="text-align: center;">
+  <!-- <img src="{{ '/images/DJL_ID_photo.webp' | relative_url }}" alt="DJ Leite"> -->
+  <h2>Dr. Daniel J. Leite</h2>
+  <p>Research Biologist<br>and Bioinformatician</p>
+  <a class="cv-button" onclick="showSection('experience')">Experience</a>
+  <a class="cv-button" onclick="showSection('skills')">Skills</a>
+  <a class="cv-button" onclick="showSection('education')">Education</a>
+  <a class="cv-button" onclick="showSection('other')">Other</a>
+  <a class="cv-button" href="/assets/cv/DJ_Leite_CV.pdf" target="_blank">Download CV</a>
+</aside>
 
+<div class="cv-container">
   <!-- Main Content -->
   <div class="cv-content">
     <p>what about having some text here?</p>
