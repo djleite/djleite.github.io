@@ -1,14 +1,14 @@
   .cv-container {
     display: flex;
     flex-wrap: wrap;
-    gap: 2rem;
+    gap: 1rem;
   }
 
   .cv-sidebar {
     position: sticky;
     top: 1rem;
     background-color: #f0f9fc;
-    padding: 1.5rem;
+    padding: 1rem;
     border-radius: 4px;
     width: 220px;
     text-align: center;
