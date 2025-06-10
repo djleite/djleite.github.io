@@ -18,6 +18,7 @@ permalink: /cv/
 
   <!-- Main Content -->
   <div class="cv-content">
+    <p>what about having some text here?</p>
     <!-- Experience -->
     <div id="experience" class="cv-section active">
     <h2>Experience</h2>
