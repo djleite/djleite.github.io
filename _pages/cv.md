@@ -18,7 +18,7 @@ permalink: /cv/
 <div class="cv-container">
   <!-- Main Content -->
   <div class="cv-content">
-    <p>Inquisitive analytical scientific researcher, experienced in genomics, phylogenomics, evolutionary and developmental biology. Adept at integrating bioinformatics and wet-lab approaches to gain multifaceted perspectives. Proven track-record of leveraging modern experimental techniques and international collaborations to produce high-impact peer-reviewed publications. Excels in communicating complex concepts effectively. Seeking to apply adaptability and experience in advanced and impactful research.</p>
+    <p style="text-align: left; font-size: 0.9rem;">Inquisitive analytical scientific researcher, experienced in genomics, phylogenomics, evolutionary and developmental biology. Adept at integrating bioinformatics and wet-lab approaches to gain multifaceted perspectives. Proven track-record of leveraging modern experimental techniques and international collaborations to produce high-impact peer-reviewed publications. Excels in communicating complex concepts effectively. Seeking to apply adaptability and experience in advanced and impactful research.</p>
     <!-- Experience -->
     <div id="experience" class="cv-section">
     <h2>Experience</h2>
