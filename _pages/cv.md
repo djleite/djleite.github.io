@@ -165,18 +165,15 @@ permalink: /cv/
           </ul>
         <h3>Communication:</h3>
             <ul>
-            <li>Presentation</li>
-            <li>Teaching</li>
-            <li>Mentoring</li>
+            <li><a href="https://djleite.github.io/publications" target="_blank">Publishing</a> (cited &gt;700 times)</li>            <li>Presentation</li>
+            <li>Teaching and Mentoring</li>
             <li>Collaborating</li>
-            <li><a href="https://djleite.github.io/publications" target="_blank">Publishing</a> (cited &gt;700 times)</li>
           </ul>
         <h3>Computational:</h3>
           <ul>
             <li>Python, R, Bash</li>
             <li>HPC</li>
             <li>Linux/Mac/Win OS</li>
-            <li>Command-line</li>
             <li>Tool and pipeline development</li>
             <li>Genome assembly & annotation</li>
             <li>Bulk and Single-cell transcriptomics</li>
