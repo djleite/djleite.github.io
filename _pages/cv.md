@@ -154,11 +154,9 @@ permalink: /cv/
       <h2>Skills</h2>
         <h3>Management:</h3>
           <ul>
-            <li>Conceptualisation</li>
             <li>Team coordination</li>
             <li>Experimental design</li>
-            <li>Project planning</li>
-            <li>Scheduling</li>
+            <li>Project scheduling</li>
             <li>Resources management</li>
             <li>Fund management</li>
             <li>Data archiving</li>
@@ -175,25 +173,19 @@ permalink: /cv/
           </ul>
         <h3>Computational:</h3>
           <ul>
-            <li>Bioinformatics</li>
-            <li>Python</li>
-            <li>R</li>
-            <li>Bash</li>
+            <li>Python, R, Bash</li>
             <li>HPC</li>
             <li>Linux/Mac/Win OS</li>
             <li>Command-line</li>
-            <li>Tool development</li>
-            <li>Genome assembly</li>
-            <li>Genome annotation</li>
-            <li>Single-cell sequencing</li>
+            <li>Tool and pipeline development</li>
+            <li>Genome assembly & annotation</li>
+            <li>Bulk and Single-cell transcriptomics</li>
             <li>Non-coding DNA/RNA annotation</li>
-            <li>Transcriptomics</li>
             <li>Phylogenetics</li>
             <li>SNP/Variant Calling</li>
             <li>Visualisation</li>
             <li>Statistics</li>
             <li>Microsoft Office</li>
-            <li>Data archiving</li>
             <li>GitHub</li>
           </ul>
         <h3>Laboratory techniques:</h3>
@@ -201,7 +193,7 @@ permalink: /cv/
             <li>DNA/RNA extraction</li>
             <li>NGS library preparation</li>
             <li>PCR</li>
-            <li>Cloning</li>
+            <li>Cloning and Vector construction</li>
             <li>in-situ hybridisation</li>
             <li>Molecular biology</li>
             <li>Immunohistochemistry</li>
