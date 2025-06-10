@@ -150,7 +150,7 @@ permalink: /cv/
     </div>
     </div>
 <!-- Skills -->
-    <div id="skills" class="cv-section">
+    <div id="skills" class="cv-section active">
       <h2>Skills</h2>
         <h3>Management:</h3>
           <ul>
@@ -211,7 +211,7 @@ permalink: /cv/
           </ul>
     </div>
 <!-- Education -->
-    <div id="education" class="cv-section">
+    <div id="education" class="cv-section active">
       <h2>Education</h2>
       <div class="job-entry expanded">
         <div class="job-header">
@@ -246,7 +246,7 @@ permalink: /cv/
       </div>
     </div>
 <!-- Other -->
-    <div id="other" class="cv-section">
+    <div id="other" class="cv-section active">
       <h2>Other</h2>
         <h3>Journal Reviewer:</h3>
           <ul>
