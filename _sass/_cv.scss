@@ -17,10 +17,10 @@
     box-shadow: 0 2px 5px rgba(0,0,0,0.05);
   }
 
-  .cv-sidebar img {
-    width: 100%;
-    border-radius: 1rem;
-    margin-bottom: 1rem;
+  @media (max-width: 767px) {
+    .cv-sidebar {
+      top: 5rem;
+    }
   }
 
   .cv-sidebar h2 {
