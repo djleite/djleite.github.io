@@ -126,7 +126,7 @@ permalink: /volunteering/
 <!-- === Modal Container === -->
 <div id="volunteer-modal" onclick="closeVolunteerModal()">
   <img id="volunteer-modal-img" src="" alt="Enlarged volunteer image">
-  <button onclick="closeVolunteerModal(); event.stopPropagation();">-</button>
+  <button onclick="closeVolunteerModal(); event.stopPropagation();">back</button>
 </div>
 
 <!-- === Scripts === -->
