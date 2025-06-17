@@ -5,7 +5,7 @@ permalink: /volunteering/
 ---
 
 <style>
-/* === Basic Styling === */
+/* === General Layout === */
 .volunteer-entry {
   margin-bottom: 2em;
   border-bottom: 1px solid #ccc;
@@ -28,7 +28,7 @@ permalink: /volunteering/
   margin-bottom: 1em;
 }
 
-/* === Scrollable Image Box === */
+/* === Scrollable Gallery === */
 .volunteer-gallery-box {
   position: relative;
 }
@@ -74,7 +74,7 @@ permalink: /volunteering/
   right: 0.2em;
 }
 
-/* === Modal Viewer === */
+/* === Fullscreen Modal === */
 #volunteer-modal {
   display: none;
   position: fixed;
@@ -91,16 +91,27 @@ permalink: /volunteering/
   max-width: 90%;
   max-height: 80%;
   border-radius: 8px;
+  z-index: 1001;
 }
 
-#volunteer-modal button {
-  margin-top: 1em;
-  font-size: 2em;
-  background: #fff;
-  border: none;
-  border-radius: 50%;
-  padding: 0.3em 0.6em;
+.volunteer-modal-nav {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 2.5em;
+  color: white;
   cursor: pointer;
+  background: rgba(0,0,0,0.3);
+  border: none;
+  z-index: 1002;
+}
+
+#modal-prev {
+  left: 2%;
+}
+
+#modal-next {
+  right: 2%;
 }
 </style>
 
@@ -115,7 +126,7 @@ permalink: /volunteering/
       <div class="volunteer-scroll-wrapper" id="gallery-{{ forloop.index0 }}">
         {% assign pics = entry.pictures | split: ", " %}
         {% for pic in pics %}
-          <img src="{{ pic | strip }}" alt="Volunteer image from {{ entry.date }}" onclick="openVolunteerModal(this.src)">
+          <img src="{{ pic | strip }}" alt="Volunteer image from {{ entry.date }}" onclick="openVolunteerModal('{{ forloop.index0 }}', {{ forloop.index10 }}, this.src)">
         {% endfor %}
       </div>
       <button class="volunteer-scroll-button volunteer-scroll-right" onclick="scrollGallery('{{ forloop.index0 }}', 1)">&gt;</button>
@@ -123,28 +134,54 @@ permalink: /volunteering/
   </div>
 {% endfor %}
 
-<!-- === Modal Container === -->
-<div id="volunteer-modal" onclick="closeVolunteerModal()">
+<!-- === Modal Viewer === -->
+<div id="volunteer-modal" onclick="closeVolunteerModal(event)">
+  <button class="volunteer-modal-nav" id="modal-prev" onclick="prevVolunteerImage(event)">&lt;</button>
   <img id="volunteer-modal-img" src="" alt="Enlarged volunteer image">
-  <button onclick="closeVolunteerModal(); event.stopPropagation();">back</button>
+  <button class="volunteer-modal-nav" id="modal-next" onclick="nextVolunteerImage(event)">&gt;</button>
 </div>
 
-<!-- === Scripts === -->
 <script>
+let currentGallery = [];
+let currentIndex = 0;
+
 function scrollGallery(index, direction) {
   const container = document.getElementById('gallery-' + index);
   const scrollAmount = 250;
   container.scrollBy({ left: direction * scrollAmount, behavior: 'smooth' });
 }
 
-function openVolunteerModal(src) {
+function openVolunteerModal(galleryIndex, imgIndex, src) {
+  const gallery = document.querySelectorAll(`#gallery-${galleryIndex} img`);
+  currentGallery = Array.from(gallery).map(img => img.src);
+  currentIndex = currentGallery.indexOf(src);
+
   const modal = document.getElementById('volunteer-modal');
   const modalImg = document.getElementById('volunteer-modal-img');
   modalImg.src = src;
   modal.style.display = 'flex';
 }
 
-function closeVolunteerModal() {
-  document.getElementById('volunteer-modal').style.display = 'none';
+function closeVolunteerModal(event) {
+  // Close only if clicking outside the image
+  if (event.target.id === 'volunteer-modal') {
+    document.getElementById('volunteer-modal').style.display = 'none';
+  }
+}
+
+function prevVolunteerImage(event) {
+  event.stopPropagation();
+  if (currentIndex > 0) {
+    currentIndex--;
+    document.getElementById('volunteer-modal-img').src = currentGallery[currentIndex];
+  }
+}
+
+function nextVolunteerImage(event) {
+  event.stopPropagation();
+  if (currentIndex < currentGallery.length - 1) {
+    currentIndex++;
+    document.getElementById('volunteer-modal-img').src = currentGallery[currentIndex];
+  }
 }
 </script>
