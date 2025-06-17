@@ -8,7 +8,7 @@ permalink: /volunteering/
 .volunteer-entry {
   margin-bottom: 2em;
   border-bottom: 1px solid #ccc;
-  padding-bottom: 1.5em;
+  padding-bottom: 2em;
 }
 
 .volunteer-title {
@@ -27,16 +27,43 @@ permalink: /volunteering/
   margin-bottom: 1em;
 }
 
-.volunteer-images {
-  display: flex;
-  overflow-x: auto;
-  gap: 1em;
-  padding-bottom: 0.5em;
+.volunteer-gallery-box {
+  position: relative;
 }
 
-.volunteer-images img {
+.volunteer-scroll-wrapper {
+  overflow-x: auto;
+  display: flex;
+  gap: 1em;
+  scroll-behavior: smooth;
+  padding: 0.5em 2em;
+}
+
+.volunteer-scroll-wrapper img {
   max-height: 200px;
   border-radius: 8px;
+}
+
+.volunteer-scroll-button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: #fff;
+  border: 1px solid #ccc;
+  border-radius: 50%;
+  font-weight: bold;
+  width: 32px;
+  height: 32px;
+  cursor: pointer;
+  z-index: 1;
+}
+
+.volunteer-scroll-left {
+  left: 0.2em;
+}
+
+.volunteer-scroll-right {
+  right: 0.2em;
 }
 </style>
 
@@ -45,11 +72,24 @@ permalink: /volunteering/
     <div class="volunteer-title">{{ entry.date }} - {{ entry.site }}</div>
     <div class="volunteer-weather">{{ entry.weather }}</div>
     <div class="volunteer-text">{{ entry.text }}</div>
-    <div class="volunteer-images">
-      {% assign pics = entry.pictures | split: ", " %}
-      {% for pic in pics %}
-        <img src="{{ pic | strip }}" alt="Volunteer image from {{ entry.date }}">
-      {% endfor %}
+
+    <div class="volunteer-gallery-box">
+      <button class="volunteer-scroll-button volunteer-scroll-left" onclick="scrollGallery('{{ forloop.index0 }}', -1)">&lt;</button>
+      <div class="volunteer-scroll-wrapper" id="gallery-{{ forloop.index0 }}">
+        {% assign pics = entry.pictures | split: ", " %}
+        {% for pic in pics %}
+          <img src="{{ pic | strip }}" alt="Volunteer image from {{ entry.date }}">
+        {% endfor %}
+      </div>
+      <button class="volunteer-scroll-button volunteer-scroll-right" onclick="scrollGallery('{{ forloop.index0 }}', 1)">&gt;</button>
     </div>
   </div>
 {% endfor %}
+
+<script>
+function scrollGallery(index, direction) {
+  const container = document.getElementById('gallery-' + index);
+  const scrollAmount = 250; // px per click
+  container.scrollBy({ left: direction * scrollAmount, behavior: 'smooth' });
+}
+</script>
