@@ -1,0 +1,11 @@
+- date: 16/06/2025
+  site: XXX
+  weather: 24C 🌤️
+  text: Some text here about the day
+  pictures: /images/keys.webp, /images/keys.webp
+
+- date: 10/06/2025
+  site: YYY
+  weather: 22C ☁️
+  text: Another volunteering day description
+  pictures: /images/keys.webp
