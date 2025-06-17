@@ -127,7 +127,6 @@ permalink: /volunteering/
     <div class="volunteer-title">{{ entry.date }} - {{ entry.site }}</div>
     <div class="volunteer-weather">{{ entry.weather }}</div>
     <div class="volunteer-text">{{ entry.text }}</div>
-
     <div class="volunteer-gallery-box">
       <button class="volunteer-scroll-button volunteer-scroll-left" onclick="scrollGallery('{{ forloop.index0 }}', -1)">&lt;</button>
       <div class="volunteer-scroll-wrapper" id="gallery-{{ forloop.index0 }}">
