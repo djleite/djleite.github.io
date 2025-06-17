@@ -17,7 +17,6 @@ permalink: /volunteering/
 }
 .volunteer-weather {
   color: #666;
-  font-style: italic;
   margin-bottom: 1em;
 }
 .volunteer-text {
