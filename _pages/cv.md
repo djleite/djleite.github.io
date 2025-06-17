@@ -269,37 +269,4 @@ permalink: /cv/
   </div>
 </div>
 
-
-<!-- JS for Smooth Scroll to Section -->
-<script>
-  function showSection(id) {
-    const section = document.getElementById(id);
-    if (section) {
-      section.scrollIntoView({ behavior: 'smooth' });
-    }
-  }
-
-  function toggleJob(element) {
-    const entry = element.closest('.job-entry');
-    entry.classList.toggle('expanded');
-    element.textContent = entry.classList.contains('expanded') ? "Show less ▲" : "Show more ▼";
-  }
-</script>
-
-
-<!-- JS for Tab Switching -->
-<!--
-<script>
-  function showSection(id) {
-    document.querySelectorAll('.cv-section').forEach(section => {
-      section.classList.remove('active');
-    });
-    document.getElementById(id).classList.add('active');
-  }
-  function toggleJob(element) {
-    const entry = element.closest('.job-entry');
-    entry.classList.toggle('expanded');
-    element.textContent = entry.classList.contains('expanded') ? "Show less ▲" : "Show more ▼";
-  }
-</script>
--->
+<script src="{{ '/assets/cv.js' | relative_url }}"></script>
