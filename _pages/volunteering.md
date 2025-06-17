@@ -63,7 +63,7 @@ permalink: /volunteering/
   width: 32px;
   height: 32px;
   cursor: pointer;
-  z-index: 1;
+  z-index: 2;
 }
 
 .volunteer-scroll-left {
@@ -74,11 +74,11 @@ permalink: /volunteering/
   right: 0.2em;
 }
 
-/* === Fullscreen Modal === */
+/* === Modal === */
 #volunteer-modal {
   display: none;
   position: fixed;
-  z-index: 999;
+  z-index: 9999;
   left: 0; top: 0;
   width: 100%; height: 100%;
   background-color: rgba(0, 0, 0, 0.85);
@@ -87,11 +87,15 @@ permalink: /volunteering/
   flex-direction: column;
 }
 
-#volunteer-modal img {
-  max-width: 90%;
-  max-height: 80%;
-  border-radius: 8px;
+#volunteer-modal-content {
+  position: relative;
   z-index: 1001;
+}
+
+#volunteer-modal img {
+  max-width: 90vw;
+  max-height: 80vh;
+  border-radius: 8px;
 }
 
 .volunteer-modal-nav {
@@ -100,10 +104,12 @@ permalink: /volunteering/
   transform: translateY(-50%);
   font-size: 2.5em;
   color: white;
-  cursor: pointer;
-  background: rgba(0,0,0,0.3);
+  background: rgba(0, 0, 0, 0.3);
   border: none;
+  cursor: pointer;
   z-index: 1002;
+  padding: 0.2em 0.5em;
+  border-radius: 5px;
 }
 
 #modal-prev {
@@ -121,12 +127,15 @@ permalink: /volunteering/
     <div class="volunteer-title">{{ entry.date }} - {{ entry.site }}</div>
     <div class="volunteer-weather">{{ entry.weather }}</div>
     <div class="volunteer-text">{{ entry.text }}</div>
+
     <div class="volunteer-gallery-box">
       <button class="volunteer-scroll-button volunteer-scroll-left" onclick="scrollGallery('{{ forloop.index0 }}', -1)">&lt;</button>
       <div class="volunteer-scroll-wrapper" id="gallery-{{ forloop.index0 }}">
         {% assign pics = entry.pictures | split: ", " %}
         {% for pic in pics %}
-          <img src="{{ pic | strip }}" alt="Volunteer image from {{ entry.date }}" onclick="openVolunteerModal('{{ forloop.index0 }}', {{ forloop.index10 }}, this.src)">
+          <img src="{{ pic | strip }}" 
+               alt="Volunteer image from {{ entry.date }}" 
+               onclick="openVolunteerModal('{{ forloop.index0 }}', {{ forloop.index0 }}{{ forloop.index }}, this.src)">
         {% endfor %}
       </div>
       <button class="volunteer-scroll-button volunteer-scroll-right" onclick="scrollGallery('{{ forloop.index0 }}', 1)">&gt;</button>
@@ -135,10 +144,12 @@ permalink: /volunteering/
 {% endfor %}
 
 <!-- === Modal Viewer === -->
-<div id="volunteer-modal" onclick="closeVolunteerModal(event)">
-  <button class="volunteer-modal-nav" id="modal-prev" onclick="prevVolunteerImage(event)">&lt;</button>
-  <img id="volunteer-modal-img" src="" alt="Enlarged volunteer image">
-  <button class="volunteer-modal-nav" id="modal-next" onclick="nextVolunteerImage(event)">&gt;</button>
+<div id="volunteer-modal" onclick="handleModalBackgroundClick(event)">
+  <div id="volunteer-modal-content">
+    <button class="volunteer-modal-nav" id="modal-prev" onclick="prevVolunteerImage(event)">&lt;</button>
+    <img id="volunteer-modal-img" src="" alt="Enlarged image">
+    <button class="volunteer-modal-nav" id="modal-next" onclick="nextVolunteerImage(event)">&gt;</button>
+  </div>
 </div>
 
 <script>
@@ -151,8 +162,9 @@ function scrollGallery(index, direction) {
   container.scrollBy({ left: direction * scrollAmount, behavior: 'smooth' });
 }
 
-function openVolunteerModal(galleryIndex, imgIndex, src) {
-  const gallery = document.querySelectorAll(`#gallery-${galleryIndex} img`);
+function openVolunteerModal(galleryId, imageKey, src) {
+  // Build the gallery image list
+  const gallery = document.querySelectorAll(`#gallery-${galleryId} img`);
   currentGallery = Array.from(gallery).map(img => img.src);
   currentIndex = currentGallery.indexOf(src);
 
@@ -162,10 +174,14 @@ function openVolunteerModal(galleryIndex, imgIndex, src) {
   modal.style.display = 'flex';
 }
 
-function closeVolunteerModal(event) {
-  // Close only if clicking outside the image
+function closeVolunteerModal() {
+  document.getElementById('volunteer-modal').style.display = 'none';
+}
+
+function handleModalBackgroundClick(event) {
+  // Only close if background (not image or nav buttons) is clicked
   if (event.target.id === 'volunteer-modal') {
-    document.getElementById('volunteer-modal').style.display = 'none';
+    closeVolunteerModal();
   }
 }
 
