@@ -1,11 +1,11 @@
 - date: 16/06/2025
-  site: v1
+  site: CREOS
   weather: 24C 🌤️
   text: Some text here about the day
-  pictures: /images/keys.webp, /images/spider-seg.webp, /images/keys.webp, /images/spider-seg.webp, /images/keys.webp, /images/spider-sox.webp
+  pictures: /images/vol/2025-06-16-image-06.webp, /images/vol/2025-06-16-image-04.webp, /images/vol/2025-06-16-image-03.webp, /images/vol/2025-06-16-image-01.webp
 
 - date: 10/06/2025
   site: YYY
   weather: 22C ☁️
   text: Another volunteering day description
-  pictures: /images/keys.webp
+  pictures: /images/vol/2025-06-17-image-04.webp, /images/vol/2025-06-17-image-05.webp, /images/vol/2025-06-17-image-02.webp, /images/vol/2025-06-17-image-07.webp
