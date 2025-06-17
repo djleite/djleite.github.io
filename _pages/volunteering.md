@@ -5,7 +5,7 @@ permalink: /volunteering/
 ---
 
 <style>
-/* === Layout Styles === */
+/* === Entry Styling === */
 .volunteer-entry {
   margin-bottom: 2em;
   border-bottom: 1px solid #ccc;
@@ -14,7 +14,6 @@ permalink: /volunteering/
 .volunteer-title {
   font-size: 1.5em;
   font-weight: bold;
-  margin-bottom: 0.3em;
 }
 .volunteer-weather {
   color: #666;
@@ -25,7 +24,7 @@ permalink: /volunteering/
   margin-bottom: 1em;
 }
 
-/* === Scrollable Gallery === */
+/* === Gallery Styling === */
 .volunteer-gallery-box {
   position: relative;
 }
@@ -58,12 +57,8 @@ permalink: /volunteering/
   cursor: pointer;
   z-index: 1;
 }
-.volunteer-scroll-left {
-  left: 0.2em;
-}
-.volunteer-scroll-right {
-  right: 0.2em;
-}
+.volunteer-scroll-left { left: 0.2em; }
+.volunteer-scroll-right { right: 0.2em; }
 
 /* === Modal === */
 #volunteer-modal {
@@ -75,13 +70,11 @@ permalink: /volunteering/
   background-color: rgba(0, 0, 0, 0.85);
   justify-content: center;
   align-items: center;
-  flex-direction: row;
 }
 #volunteer-modal img {
   max-width: 90%;
   max-height: 80%;
   border-radius: 8px;
-  z-index: 1001;
 }
 .volunteer-modal-nav {
   position: absolute;
@@ -89,21 +82,18 @@ permalink: /volunteering/
   transform: translateY(-50%);
   font-size: 2.5em;
   color: white;
-  background: rgba(0,0,0,0.3);
+  background: rgba(0, 0, 0, 0.3);
   border: none;
   cursor: pointer;
-  z-index: 1002;
+  z-index: 1001;
 }
-#modal-prev {
-  left: 2%;
-}
-#modal-next {
-  right: 2%;
-}
+#modal-prev { left: 2%; }
+#modal-next { right: 2%; }
 </style>
 
 <!-- === Volunteering Entries === -->
 {% for entry in site.data.volunteering %}
+  {% assign pics = entry.pictures | split: ", " %}
   <div class="volunteer-entry">
     <div class="volunteer-title">{{ entry.date }} - {{ entry.site }}</div>
     <div class="volunteer-weather">{{ entry.weather }}</div>
@@ -112,15 +102,13 @@ permalink: /volunteering/
     <div class="volunteer-gallery-box">
       <button class="volunteer-scroll-button volunteer-scroll-left" onclick="scrollGallery({{ forloop.index0 }}, -1)">&lt;</button>
       <div class="volunteer-scroll-wrapper" id="gallery-{{ forloop.index0 }}">
-        {% assign pics = entry.pictures | split: ", " %}
         {% for pic in pics %}
           <img 
             src="{{ pic | strip }}" 
             alt="Volunteer image" 
-            data-gallery="{{ forloop.index0 }}" 
-            data-img-index="{{ forloop.index0 }}-{{ forloop.index0 }}-{{ forloop.index0 }}-{{ forloop.index }}"
-            onclick="openVolunteerModal({{ forloop.index0 }}, {{ forloop.index0 }}, '{{ pic | strip }}')"
-          >
+            data-entry="{{ forloop.parentloop.index0 }}" 
+            data-index="{{ forloop.index0 }}" 
+            onclick="openVolunteerModal({{ forloop.parentloop.index0 }}, {{ forloop.index0 }})">
         {% endfor %}
       </div>
       <button class="volunteer-scroll-button volunteer-scroll-right" onclick="scrollGallery({{ forloop.index0 }}, 1)">&gt;</button>
@@ -129,33 +117,40 @@ permalink: /volunteering/
 {% endfor %}
 
 <!-- === Modal Viewer === -->
-<div id="volunteer-modal" onclick="closeVolunteerModal(event)">
+<div id="volunteer-modal" onclick="handleModalBackgroundClick(event)">
   <button class="volunteer-modal-nav" id="modal-prev" onclick="navigateModal(event, -1)">&lt;</button>
-  <img id="volunteer-modal-img" src="" alt="Enlarged volunteer image">
+  <img id="volunteer-modal-img" src="" alt="Enlarged image">
   <button class="volunteer-modal-nav" id="modal-next" onclick="navigateModal(event, 1)">&gt;</button>
 </div>
 
 <script>
-let currentGalleryImages = [];
+const galleries = {}; // Stores arrays of image URLs per entry index
+let currentEntryIndex = 0;
 let currentImageIndex = 0;
+
+document.addEventListener('DOMContentLoaded', () => {
+  // Build gallery data from images
+  document.querySelectorAll('.volunteer-scroll-wrapper').forEach((wrapper, i) => {
+    const imgs = wrapper.querySelectorAll('img');
+    galleries[i] = Array.from(imgs).map(img => img.src);
+  });
+});
 
 function scrollGallery(index, direction) {
   const container = document.getElementById('gallery-' + index);
   container.scrollBy({ left: direction * 250, behavior: 'smooth' });
 }
 
-function openVolunteerModal(galleryIndex, entryIndex, src) {
-  const gallerySelector = '#gallery-' + galleryIndex + ' img';
-  const galleryImgs = document.querySelectorAll(gallerySelector);
-  currentGalleryImages = Array.from(galleryImgs).map(img => img.src);
-  currentImageIndex = currentGalleryImages.indexOf(src);
+function openVolunteerModal(entryIndex, imgIndex) {
+  currentEntryIndex = entryIndex;
+  currentImageIndex = imgIndex;
+  const imgSrc = galleries[entryIndex][imgIndex];
 
-  const modal = document.getElementById('volunteer-modal');
-  document.getElementById('volunteer-modal-img').src = src;
-  modal.style.display = 'flex';
+  document.getElementById('volunteer-modal-img').src = imgSrc;
+  document.getElementById('volunteer-modal').style.display = 'flex';
 }
 
-function closeVolunteerModal(event) {
+function handleModalBackgroundClick(event) {
   if (event.target.id === 'volunteer-modal') {
     document.getElementById('volunteer-modal').style.display = 'none';
   }
@@ -163,9 +158,13 @@ function closeVolunteerModal(event) {
 
 function navigateModal(event, direction) {
   event.stopPropagation();
+
+  const gallery = galleries[currentEntryIndex];
   currentImageIndex += direction;
+
   if (currentImageIndex < 0) currentImageIndex = 0;
-  if (currentImageIndex >= currentGalleryImages.length) currentImageIndex = currentGalleryImages.length - 1;
-  document.getElementById('volunteer-modal-img').src = currentGalleryImages[currentImageIndex];
+  if (currentImageIndex >= gallery.length) currentImageIndex = gallery.length - 1;
+
+  document.getElementById('volunteer-modal-img').src = gallery[currentImageIndex];
 }
 </script>
