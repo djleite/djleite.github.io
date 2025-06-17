@@ -11,7 +11,6 @@ permalink: /volunteering/
     <div class="volunteer-title">{{ entry.date }} - {{ entry.site }}</div>
     <div class="volunteer-weather">{{ entry.weather }}</div>
     <div class="volunteer-text">{{ entry.text }}</div>
-
     <div class="volunteer-gallery-box">
       <button class="volunteer-scroll-button volunteer-scroll-left" onclick="scrollGallery({{ forloop.index0 }}, -1)">&lt;</button>
       <div class="volunteer-scroll-wrapper" id="gallery-{{ forloop.index0 }}">
@@ -36,48 +35,4 @@ permalink: /volunteering/
   <button class="volunteer-modal-nav" id="modal-next" onclick="navigateModal(event, 1)">&gt;</button>
 </div>
 
-<script>
-const galleries = {}; // Stores arrays of image URLs per entry index
-let currentEntryIndex = 0;
-let currentImageIndex = 0;
-
-document.addEventListener('DOMContentLoaded', () => {
-  // Build gallery data from images
-  document.querySelectorAll('.volunteer-scroll-wrapper').forEach((wrapper, i) => {
-    const imgs = wrapper.querySelectorAll('img');
-    galleries[i] = Array.from(imgs).map(img => img.src);
-  });
-});
-
-function scrollGallery(index, direction) {
-  const container = document.getElementById('gallery-' + index);
-  container.scrollBy({ left: direction * 250, behavior: 'smooth' });
-}
-
-function openVolunteerModal(entryIndex, imgIndex) {
-  currentEntryIndex = entryIndex;
-  currentImageIndex = imgIndex;
-  const imgSrc = galleries[entryIndex][imgIndex];
-
-  document.getElementById('volunteer-modal-img').src = imgSrc;
-  document.getElementById('volunteer-modal').style.display = 'flex';
-}
-
-function handleModalBackgroundClick(event) {
-  if (event.target.id === 'volunteer-modal') {
-    document.getElementById('volunteer-modal').style.display = 'none';
-  }
-}
-
-function navigateModal(event, direction) {
-  event.stopPropagation();
-
-  const gallery = galleries[currentEntryIndex];
-  currentImageIndex += direction;
-
-  if (currentImageIndex < 0) currentImageIndex = 0;
-  if (currentImageIndex >= gallery.length) currentImageIndex = gallery.length - 1;
-
-  document.getElementById('volunteer-modal-img').src = gallery[currentImageIndex];
-}
-</script>
+<script src="{{ '/assets/volunteering.js' | relative_url }}"></script>
