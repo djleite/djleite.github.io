@@ -1,15 +1,6 @@
 <style>
     html, body {
-      margin: 0;
-      padding: 0;
       overflow: hidden;
-      height: 100%;
-      width: 100%;
-      background: white;
-    }
-
-    canvas.bg {
-      display: none;
     }
 
     .leaf {
@@ -17,7 +8,9 @@
       width: 30px;
       height: 30px;
       transform-origin: center;
-      will-change: transform;
+      /*will-change: transform;*/
+      pointer-events: none;
+      z-index: -1;
     }
 
     .leaf svg {
