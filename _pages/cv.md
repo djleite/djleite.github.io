@@ -238,6 +238,10 @@ permalink: /cv/
 <!-- Other -->
     <div id="other" class="cv-section">
       <h2>Other</h2>
+        <h3><a href="/volunteering">Volunteering:</a></h3>
+          <ul>
+            <li>Horticultural and gardening at several sites</li>
+          </ul>
         <h3>Journal Reviewer:</h3>
           <ul>
             <li>BMC Genomics</li>
