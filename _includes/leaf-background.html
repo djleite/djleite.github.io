@@ -40,8 +40,6 @@
       const path = document.createElementNS("http://www.w3.org/2000/svg", "path");
       path.setAttribute("d", leafPath);
       path.setAttribute("fill", colors[Math.floor(Math.random() * colors.length)]);
-      path.setAttribute("stroke", "red");
-      path.setAttribute("stroke-width", "0.5");
       svg.appendChild(path);
       leaf.appendChild(svg);
   
