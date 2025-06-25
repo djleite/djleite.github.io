@@ -10,6 +10,7 @@
       transform-origin: center;
       /*will-change: transform;*/
       pointer-events: none;
+      opacity: 0.2;
       z-index: -1;
     }
 
@@ -45,7 +46,15 @@
     svg.appendChild(path);
     leaf.appendChild(svg);
 
-    const x = Math.random() * screenWidth;
+    let x = Math.random() * screenWidth;
+      const marginThreshold = screenWidth * 0.2; // 20% side margins
+      // constrain to left or right margin
+      if (x > marginThreshold && x < screenWidth - marginThreshold) {
+        x = Math.random() < 0.5
+          ? Math.random() * marginThreshold
+          : screenWidth - marginThreshold + Math.random() * marginThreshold;
+      }
+      
     const y = Math.random() * screenHeight;
     const rot = Math.random() * 360;
 
