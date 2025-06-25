@@ -272,6 +272,7 @@ p > img {
 .masthead {
   padding: 20px 0;
   border-bottom: 1px solid $lightGray;
+  text-align: center;
 
   @include mobile {
     text-align: center;
@@ -279,10 +280,9 @@ p > img {
 }
 
 .site-avatar {
-  float: left;
-  width: 70px;
-  height: 70px;
-  margin-right: 15px;
+  float: none;
+  display: block;
+  margin: 0 auto;
 
   @include mobile {
     float: none;
@@ -299,7 +299,9 @@ p > img {
 }
 
 .site-info {
-  float: left;
+  float: none;
+  display: block;
+  margin: 0 auto;
 
   @include mobile {
     float: none;
@@ -316,7 +318,7 @@ p > img {
   font-weight: 300;
   font-size: 28px;
   letter-spacing: 1px;
-  text-align: left;
+  text-align: center;
 
   @include mobile {
     text-align: center;
@@ -335,9 +337,9 @@ p > img {
 
 nav {
   float: none;
-  margin-top: 23px; // @TODO: Vertically middle align
-  font-family: $helveticaNeue;
-  font-size: 18px;
+  margin-top: 9px;
+  display: block;
+  font-size: 16px;
 
   @include mobile {
     float: none;
@@ -347,11 +349,8 @@ nav {
   }
 
   a {
-    margin-left: 20px;
-    color: $darkGray;
-    text-align: right;
-    font-weight: 300;
-    letter-spacing: 1px;
+    margin: 0 10px;
+    color: $blue;
 
     @include mobile {
       margin: 0 10px;
