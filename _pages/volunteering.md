@@ -3,6 +3,7 @@ layout: page
 title: Volunteering
 permalink: /volunteering/
 ---
+{% include leaf-background.html %}
 
 <!-- === Volunteering Entries === -->
 {% for entry in site.data.volunteering %}
