@@ -4,9 +4,9 @@ title: Volunteering
 permalink: /volunteering/
 ---
 
-<!--
+{% comment %}
 {% include leaf-background.html %} 
--->
+{% endcomment %}
 
 <!-- === Volunteering Entries === -->
 {% for entry in site.data.volunteering %}
