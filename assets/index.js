@@ -10,10 +10,10 @@ window.addEventListener('resize', resizeCanvas);
 
 const letters = ['A', 'T', 'C', 'G'];
 const colors = {
-  'A': '#81000020', 
-  'T': '#011c7620', 
-  'C': '#00742120', 
-  'G': '#9e570020'  
+  'A': '#81000040', 
+  'T': '#011c7640', 
+  'C': '#00742140', 
+  'G': '#9e570040'  
 };
 const gridSize = 16; // size of each letter
 let letterGrid = [];
