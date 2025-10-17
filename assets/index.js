@@ -15,7 +15,7 @@ const colors = {
   'C': '#00742120', 
   'G': '#9e570020'  
 };
-const gridSize = 20; // size of each letter
+const gridSize = 16; // size of each letter
 let letterGrid = [];
 
 // Initialize grid with random letters
