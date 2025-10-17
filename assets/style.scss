@@ -1139,7 +1139,55 @@ Modules - reusable parts of our design
   }
 }
 
+button{
+  position: relative;
+  padding: 1rem;
+  color: #000000;
+  background: #ffffff;
+  font-size: 16px;
+  letter-spacing: 0.2rem;
+  border-radius: 8px;
+  border: none;
+  transition: 0.5s;
+  cursor: pointer;
+  overflow: hidden;
+}
+// for the header buttons 
+button:hover{
+  color: var(--clr);
+  text-shadow: 0 0 15px var(--clr),
+  0 0 4px var(--clr);
+}
 
+button span{
+  position: relative;
+  z-index: 1;
+}
+
+button::before{
+  content: '';
+  position: absolute;
+  top: var(--y);
+  left: var(--x);
+  transform: translate(-50%, -50%);
+  width: 150px;
+  height: 150px;
+  background: radial-gradient(var(--clr), transparent, transparent);
+  transition: 0.5s, top 0s, left 0s;
+  opacity: 0;
+}
+
+button:hover::before{
+  opacity: 0.1;
+}
+
+button::after{
+  content: '';
+  position: absolute;
+  inset: 4px;
+  background: #ffffff9e;
+  border-radius: 4px;
+}
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
 // ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start
 //@import "highlights";

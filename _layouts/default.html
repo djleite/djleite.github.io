@@ -28,11 +28,11 @@
             </div>
 
             <nav>
-              <a href="{{ site.baseurl }}/projects">Projects</a>
-              <a href="{{ site.baseurl }}/cv">CV</a>
-              <a href="{{ site.baseurl }}/publications">Publications</a>
-              <a href="{{ site.baseurl }}/volunteering">Volunteering</a>
-              <a href="{{ site.baseurl }}/contact">Contact</a>
+              <button class="btn" style="--clr:#730071;" href="{{ site.baseurl }}/projects">Projects</button>
+              <button class="btn" style="--clr:#730071;" href="{{ site.baseurl }}/cv">CV</button>
+              <button class="btn" style="--clr:#730071;" href="{{ site.baseurl }}/publications">Publications</button>
+              <button class="btn" style="--clr:#730071;" href="{{ site.baseurl }}/volunteering">Volunteering</button>
+              <button class="btn" style="--clr:#730071;" href="{{ site.baseurl }}/contact">Contact</button>
             </nav>
           </header>
         </div>
@@ -56,3 +56,17 @@
     {% include analytics.html %}
   </body>
 </html>
+
+<script>
+  const buttons = document.querySelectorAll(".btn");
+  
+  buttons.forEach((btn) => {
+      btn.addEventListener('mousemove', (e) => {
+          let x = e.pageX - btn.offsetLeft;
+          let y = e.pageY - btn.offsetTop - 30;
+      
+          btn.style.setProperty('--x', x + 'px');
+          btn.style.setProperty('--y', y + 'px');
+      });
+  })
+  </script>
