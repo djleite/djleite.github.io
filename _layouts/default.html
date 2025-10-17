@@ -28,11 +28,11 @@
             </div>
 
             <nav>
-              <button class="btn" style="--clr:#730071;" onclick="location.href='{{ site.baseurl }}/projects'">Projects</button>
-              <button class="btn" style="--clr:#730071;" onclick="location.href='{{ site.baseurl }}/cv'">CV</button>
-              <button class="btn" style="--clr:#730071;" onclick="location.href='{{ site.baseurl }}/publications'">Publications</button>
-              <button class="btn" style="--clr:#730071;" onclick="location.href='{{ site.baseurl }}/volunteering'">Volunteering</button>
-              <button class="btn" style="--clr:#730071;" onclick="location.href='{{ site.baseurl }}/contact'">Contact</button>
+              <button class="btn header-btn" style="--clr:#730071;" onclick="location.href='{{ site.baseurl }}/projects'">Projects</button>
+              <button class="btn header-btn" style="--clr:#730071;" onclick="location.href='{{ site.baseurl }}/cv'">CV</button>
+              <button class="btn header-btn" style="--clr:#730071;" onclick="location.href='{{ site.baseurl }}/publications'">Publications</button>
+              <button class="btn header-btn" style="--clr:#730071;" onclick="location.href='{{ site.baseurl }}/volunteering'">Volunteering</button>
+              <button class="btn header-btn" style="--clr:#730071;" onclick="location.href='{{ site.baseurl }}/contact'">Contact</button>
             </nav>
           </header>
         </div>
@@ -58,7 +58,7 @@
 </html>
 
 <script>
-  const buttons = document.querySelectorAll(".btn");
+  const buttons = document.querySelectorAll(".header-btn");
   
   buttons.forEach((btn) => {
       btn.addEventListener('mousemove', (e) => {

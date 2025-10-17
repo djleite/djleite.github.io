@@ -1138,8 +1138,8 @@ Modules - reusable parts of our design
     transform: translateX(0);
   }
 }
-
-button{
+// for the header buttons 
+header-btn{
   position: relative;
   padding: 1rem;
   color: #000000;
@@ -1152,19 +1152,19 @@ button{
   cursor: pointer;
   overflow: hidden;
 }
-// for the header buttons 
-button:hover{
+
+header-btn:hover{
   color: var(--clr);
   text-shadow: 0 0 15px var(--clr),
   0 0 4px var(--clr);
 }
 
-button span{
+header-btn span{
   position: relative;
   z-index: 1;
 }
 
-button::before{
+header-btn::before{
   content: '';
   position: absolute;
   top: var(--y);
@@ -1177,11 +1177,11 @@ button::before{
   opacity: 0;
 }
 
-button:hover::before{
+header-btn:hover::before{
   opacity: 0.1;
 }
 
-button::after{
+header-btn::after{
   content: '';
   position: absolute;
   inset: 4px;
